@@ -1,38 +1,36 @@
 using UnityEngine;
-using UnityEngine.InputSystem.iOS;
-using UnityEngine.Windows.Speech;
 
 public class BulletController : MonoBehaviour
 {
+    public float speed = 10f;
+    private float startHeight; // Stocke la hauteur de départ
 
-    public float speed; 
     void Start()
     {
-        Destroy(this.gameObject, 2.5f);
+        // Sauvegarde la hauteur initiale
+        startHeight = transform.position.y;
+
+        // Détruit le projectile après un certain temps
+        Destroy(gameObject, 2.5f);
     }
 
-    // Update is called once per frame
     void Update()
     {
-        this.transform.position += Vector3.forward * speed * Time.deltaTime;
-<<<<<<< HEAD
-=======
+        // Avance vers l'avant
+        transform.position += transform.forward * speed * Time.deltaTime;
+
+        // Reste à la hauteur de départ
+        Vector3 pos = transform.position;
+        pos.y = startHeight+1;
+        transform.position = pos;
     }
 
-    private void OnColisionEnter(Collision collision)
+    void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "ennemy"){
-            Destroy(this.gameObject);
+        if (collision.gameObject.CompareTag("ennemy"))
+        {
             Destroy(collision.gameObject);
-        }
->>>>>>> 3c1d786b5353744be3544aada2adfafe5a4d9051
-    }
-
-    private void OnColisionEnter(Collision collision)
-    {
-        if(collision.gameObject.tag == "ennemy"){
-            Destroy(this.gameObject);
-            Destroy(collision.gameObject);
+            Destroy(gameObject);
         }
     }
 }

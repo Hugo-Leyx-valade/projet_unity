@@ -45,9 +45,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 8140538648535663133, guid: 28a14407b898e944aa0f0ae327a2a5b9, type: 3}
-<<<<<<< HEAD
   spawnRate: 1.5
-=======
-  spawnRate: 3
->>>>>>> 3c1d786b5353744be3544aada2adfafe5a4d9051
   spawnDistance: 20
