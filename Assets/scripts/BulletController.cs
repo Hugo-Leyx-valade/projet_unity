@@ -17,9 +17,9 @@ public class BulletController : MonoBehaviour
         this.transform.position += Vector3.forward * speed * Time.deltaTime;
     }
 
-    private void OollisionEnter(Collision collision)
+    private void OnColisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "Ennemy"){
+        if(collision.gameObject.tag == "ennemy"){
             Destroy(this.gameObject);
             Destroy(collision.gameObject);
         }
