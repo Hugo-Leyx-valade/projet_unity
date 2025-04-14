@@ -17,3 +17,5 @@ MemoryCaptures/
 .DS_Store
 *.apk
 *.unitypackage
+
+.fake
