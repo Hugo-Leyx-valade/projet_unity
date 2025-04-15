@@ -1,21 +1,26 @@
 using UnityEngine;
-
+using UnityEngine.UI;
 public class playerController : MonoBehaviour
 {
     public float speed;
-    public int life;
+    public int maxHealth=100;
+    public int currentHealth=100;
+
+
     public GameObject bulletPrefab;
 
     public GameObject gameOverScreen;
     
     private Rigidbody _rb;
-    
+    public Image lifelineImage;
     private Camera mainCamera;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         _rb = GetComponent<Rigidbody>();
         mainCamera = FindAnyObjectByType<Camera>();
+        currentHealth = maxHealth;
+        UpdateHealthUI();
     }
 
     // Update is called once per frame
@@ -43,9 +48,11 @@ public class playerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("ennemy"))
         {
-            life-=10;
+            currentHealth -=10;
+            currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+            UpdateHealthUI();
             Destroy(collision.gameObject);
-            if(life==0){
+            if(currentHealth==0){
                 Destroy(gameObject);
                 gameOverScreen.SetActive(true);
             }
@@ -70,6 +77,11 @@ public class playerController : MonoBehaviour
 
             transform.LookAt(new Vector3(pointToLook.x, transform.position.y, pointToLook.z));
         }
+    }
+    void UpdateHealthUI()
+    {
+        float fillAmount = (float)currentHealth / maxHealth;
+        lifelineImage.fillAmount = fillAmount;
     }
 
 }
