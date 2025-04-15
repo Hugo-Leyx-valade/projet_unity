@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5563147661305030323, guid: 47d8165626b41a243b1a0222655960b7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.59
+      objectReference: {fileID: 0}
     - target: {fileID: 6243772395542237736, guid: 47d8165626b41a243b1a0222655960b7, type: 3}
       propertyPath: m_Name
       value: ennemy
@@ -17,16 +21,28 @@ PrefabInstance:
       value: ennemy
       objectReference: {fileID: 0}
     - target: {fileID: 6768212347281410194, guid: 47d8165626b41a243b1a0222655960b7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768212347281410194, guid: 47d8165626b41a243b1a0222655960b7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768212347281410194, guid: 47d8165626b41a243b1a0222655960b7, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768212347281410194, guid: 47d8165626b41a243b1a0222655960b7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 143.39397
+      value: 146.59
       objectReference: {fileID: 0}
     - target: {fileID: 6768212347281410194, guid: 47d8165626b41a243b1a0222655960b7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.19
       objectReference: {fileID: 0}
     - target: {fileID: 6768212347281410194, guid: 47d8165626b41a243b1a0222655960b7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 83.93451
+      value: 86.41083
       objectReference: {fileID: 0}
     - target: {fileID: 6768212347281410194, guid: 47d8165626b41a243b1a0222655960b7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -109,8 +125,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.9290314, y: 2.9762697, z: 2.8171463}
-  m_Center: {x: -0.19280243, y: 0.9881351, z: -0.5304146}
+  m_Size: {x: 2.9290314, y: 5.058013, z: 2.7948}
+  m_Center: {x: -0.19280243, y: 2.0290065, z: -0.20395894}
 --- !u!54 &6306797701957829549
 Rigidbody:
   m_ObjectHideFlags: 0
