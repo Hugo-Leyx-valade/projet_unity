@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6306797701957829549}
   - component: {fileID: 6415237053166273786}
   - component: {fileID: 7134502163047754898}
+  - component: {fileID: -7776522204853547072}
   m_Layer: 0
   m_Name: ennemy
   m_TagString: ennemy
@@ -137,7 +138,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 126
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!135 &6415237053166273786
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -166,9 +167,22 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8140538648535663133}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d38602de46d06a42b5b16228ba10aeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+--- !u!114 &-7776522204853547072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8140538648535663133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f87db4dfd406b5488f880d558294fb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
