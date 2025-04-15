@@ -1,0 +1,1563 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.42f1 (feb9a7235030) revision 16693671'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'fr' Physical Memory: 16122 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/roror/Documents/EFREI/S6/LXP-Unity/projet_unity
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62926
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/roror/Documents/EFREI/S6/LXP-Unity/projet_unity
+C:/Users/roror/Documents/EFREI/S6/LXP-Unity/projet_unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9960]  Target information:
+
+Player connection [9960]  * "[IP] 192.168.227.1 [Port] 0 [Flags] 2 [Guid] 3297199716 [EditorId] 3297199716 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8OUEENC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [9960]  * "[IP] 192.168.253.1 [Port] 0 [Flags] 2 [Guid] 3297199716 [EditorId] 3297199716 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8OUEENC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [9960]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3297199716 [EditorId] 3297199716 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8OUEENC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [9960]  * "[IP] 10.101.10.116 [Port] 0 [Flags] 2 [Guid] 3297199716 [EditorId] 3297199716 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8OUEENC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [9960] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9960] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.42f1 (feb9a7235030)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/roror/Documents/EFREI/S6/LXP-Unity/projet_unity/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8061 MB
+    Driver:   31.0.101.5333
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007641 seconds.
+- Loaded All Assemblies, in  0.898 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.717 seconds
+Domain Reload Profiling: 1608ms
+	BeginReloadAssembly (305ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (87ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (123ms)
+	LoadAllAssembliesAndSetupDomain (342ms)
+		LoadAssemblies (298ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (337ms)
+			TypeCache.Refresh (334ms)
+				TypeCache.ScanAssembly (305ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (718ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (625ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (342ms)
+			ProcessInitializeOnLoadMethodAttributes (120ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.698 seconds
+Refreshing native plugins compatible for Editor in 2.55 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-projet_lxp
+<RI> Initialized touch support.
+<RI> Initializing input.
+<RI> Input initialized.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.107 seconds
+Domain Reload Profiling: 4792ms
+	BeginReloadAssembly (385ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (92ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (1088ms)
+		LoadAssemblies (786ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (552ms)
+			TypeCache.Refresh (405ms)
+				TypeCache.ScanAssembly (368ms)
+			BuildScriptInfoCaches (120ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (3108ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2881ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (237ms)
+			ProcessInitializeOnLoadAttributes (2501ms)
+			ProcessInitializeOnLoadMethodAttributes (121ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 152 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5965 unused Assets / (5.7 MB). Loaded Objects now: 6558.
+Memory consumption went from 256.0 MB to 250.2 MB.
+Total: 32.305900 ms (FindLiveObjects: 0.977500 ms CreateObjectMapping: 0.853000 ms MarkObjects: 25.729300 ms  DeleteObjects: 4.744400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5538.837628 seconds.
+  path: Assets/prefab/ennemy.prefab
+  artifactKey: Guid(28a14407b898e944aa0f0ae327a2a5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/ennemy.prefab using Guid(28a14407b898e944aa0f0ae327a2a5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '784ba1a6e34244d55d360212ab83c5e7') in 0.6538748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 698
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/prefab/magician.prefab
+  artifactKey: Guid(5b446a0680cab2c43b7f32db626c39ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/magician.prefab using Guid(5b446a0680cab2c43b7f32db626c39ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a15e063604bcf0bd7de120629b199f4') in 0.386543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 105
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.566119 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/EA03.fbx
+  artifactKey: Guid(581c41b07e405124daec580ae7109aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/EA03.fbx using Guid(581c41b07e405124daec580ae7109aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b7e94c7ee1e1539b5f2cbd18ef0c8f6') in 0.1044745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.349001 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Skybox/Epic_BigCloudsSoft_V2
+  artifactKey: Guid(692320676fa3dfa4d812545bf39b83dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Skybox/Epic_BigCloudsSoft_V2 using Guid(692320676fa3dfa4d812545bf39b83dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '516b3dbd1b3f9d655fd5fb1fdb8f375b') in 0.0013635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058595 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Skybox/Epic_BigCloudsSoft_V2/EA03_LowPolyBigClouds.mat
+  artifactKey: Guid(5d0ef7cbda2ac05459b326d9ebbcc118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Skybox/Epic_BigCloudsSoft_V2/EA03_LowPolyBigClouds.mat using Guid(5d0ef7cbda2ac05459b326d9ebbcc118) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '961d836582b9488078c92fedaac599ce') in 0.2663396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.089212 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Models/tree/Trees .fbx
+  artifactKey: Guid(668c78fc50ba1014ba896ad39944b04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Models/tree/Trees .fbx using Guid(668c78fc50ba1014ba896ad39944b04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdbabc19d3bd10853d3ccface7d32319') in 0.1455802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.485870 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Shaders/Skybox.shadergraph
+  artifactKey: Guid(86e4c59cae06f20469333913d893acff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Shaders/Skybox.shadergraph using Guid(86e4c59cae06f20469333913d893acff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5152f22fdb1e552b19e08163e4586246') in 1.1556019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.956222 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Structure/Barrel.prefab
+  artifactKey: Guid(67faf9a66dd0bc647a4e86104645b9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Structure/Barrel.prefab using Guid(67faf9a66dd0bc647a4e86104645b9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68ffd0bf91ccd9ce77f14d913e6e8d21') in 0.0242852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Structure/Bridge Support Extender.prefab
+  artifactKey: Guid(4f995779dcf4b2e4984270f97f38170b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Structure/Bridge Support Extender.prefab using Guid(4f995779dcf4b2e4984270f97f38170b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcbc4766c2a035f3e77f697433b3fb38') in 0.0186072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Structure/Fence.prefab
+  artifactKey: Guid(97d7163118bc10246872db466c417f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Structure/Fence.prefab using Guid(97d7163118bc10246872db466c417f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '496d109d2cb7f8fad6fb5cbcfcd68917') in 0.0264954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Structure/Bridge Deck Module V2.prefab
+  artifactKey: Guid(7e758888cb98b504cad10d0658712a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Structure/Bridge Deck Module V2.prefab using Guid(7e758888cb98b504cad10d0658712a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b622c0052361e6b406a2f9073be7e04') in 0.0278187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Structure/Bridge Deck Support.prefab
+  artifactKey: Guid(f15da8bceb1821f409419ae6146d07ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Structure/Bridge Deck Support.prefab using Guid(f15da8bceb1821f409419ae6146d07ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92ec529368efd42913017dac85ce02e1') in 0.0267568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Structure/Fence pole.prefab
+  artifactKey: Guid(5aa824d2a3c45354cbebc0d7681899aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Structure/Fence pole.prefab using Guid(5aa824d2a3c45354cbebc0d7681899aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1d256ce921155b6766fba2a78284a91') in 0.0303869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.186767 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Settings/CampFire.asset
+  artifactKey: Guid(74aaf59a25d24084596fe770b55ab23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Settings/CampFire.asset using Guid(74aaf59a25d24084596fe770b55ab23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f9835b899cdc3024abd17f972063464') in 0.008292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008582 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Settings/Day time.asset
+  artifactKey: Guid(89e100ca7aec55f4ba89d6010f73ee87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Settings/Day time.asset using Guid(89e100ca7aec55f4ba89d6010f73ee87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9896cbad7f8fcea52ddab24b480abb0') in 0.0021575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005958 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Settings/Mangrove.asset
+  artifactKey: Guid(59911c0a5650eae43b9b504091ca2587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Settings/Mangrove.asset using Guid(59911c0a5650eae43b9b504091ca2587) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca2a0bd0476761f8aea67a21af99dbd3') in 0.0020314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005858 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Settings/Underwater.asset
+  artifactKey: Guid(3c4ef9354eb22124f929578bb5ff9c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Settings/Underwater.asset using Guid(3c4ef9354eb22124f929578bb5ff9c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b695f866b03ad0d6cd79c42073f160d8') in 0.0030196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.639709 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Models/tree/tree 2.fbx
+  artifactKey: Guid(21587bd0095ea7145a0f7a12faefe8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Models/tree/tree 2.fbx using Guid(21587bd0095ea7145a0f7a12faefe8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '782ac10dd7c91fc8375e3e72d835f333') in 0.1585019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 54
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.184115 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurface.shadergraph
+  artifactKey: Guid(3739e562a03fc0b4982d8aa66cc50865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurface.shadergraph using Guid(3739e562a03fc0b4982d8aa66cc50865) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a67678885e95c5f09bdf5de7d7b59dd') in 0.0252683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph
+  artifactKey: Guid(0e9d5a909a1f7e84882a534d0d11e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph using Guid(0e9d5a909a1f7e84882a534d0d11e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5bf4ce6d9bcf3b63dd54859c046e802') in 0.0119432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Standard/Materials/Black.mat
+  artifactKey: Guid(4f1ef37ae953c484bbc5d5e4049147e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Standard/Materials/Black.mat using Guid(4f1ef37ae953c484bbc5d5e4049147e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c85dcc8981371d669e75b552ce5a7f7') in 0.0110155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.717240 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Shaders/Cloud.shadergraph
+  artifactKey: Guid(16f6b6d4f32c637419ca0e9a948f9241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Shaders/Cloud.shadergraph using Guid(16f6b6d4f32c637419ca0e9a948f9241) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4c80b4dae58544762d5feebec4919a5') in 0.012408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_OutBuilding_Convenience_01a.fbx
+  artifactKey: Guid(7e3464691be8900418a72b728b9cfe8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_OutBuilding_Convenience_01a.fbx using Guid(7e3464691be8900418a72b728b9cfe8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b3545f3ef09361697c6597c6672d79c') in 0.0956988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Painted_Desk_02a.fbx
+  artifactKey: Guid(0d12112420a427644aada3727e4850a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Painted_Desk_02a.fbx using Guid(0d12112420a427644aada3727e4850a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8381f575769d48c9906834788060315') in 0.1055287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shelf_01a.fbx
+  artifactKey: Guid(fb814a59022e8554e86bcd2ce8087540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shelf_01a.fbx using Guid(fb814a59022e8554e86bcd2ce8087540) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fc1295b028910f088e4e7c43aa052cb') in 0.0837557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_mug_01a.fbx
+  artifactKey: Guid(c73f3ec04424b484592476d4de9ff226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_mug_01a.fbx using Guid(c73f3ec04424b484592476d4de9ff226) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b5b86f8a0f5f11139ecb69914b68d45') in 0.081787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shelf_01c.fbx
+  artifactKey: Guid(fefb188aa51cd2247ac69d79ad42b63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shelf_01c.fbx using Guid(fefb188aa51cd2247ac69d79ad42b63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6c4d6293504c717b0a91366d81d84ff') in 0.0808134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Roof_Cut_01c.001.fbx
+  artifactKey: Guid(59718ed7c97a4ee47a43c8593576dc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Roof_Cut_01c.001.fbx using Guid(59718ed7c97a4ee47a43c8593576dc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93936cdf89dc747b4823954e7a473261') in 0.0917226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Bag_02a.fbx
+  artifactKey: Guid(a018acf8aa42612409be67810b627e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Bag_02a.fbx using Guid(a018acf8aa42612409be67810b627e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc2749edf161d1161cff11d5cb375ec0') in 0.0794245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Chest_02a.fbx
+  artifactKey: Guid(b6814f96c7f305e4f982c84f3d888a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Chest_02a.fbx using Guid(b6814f96c7f305e4f982c84f3d888a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7a337f6c56605a7e6dedcda4a1465c6') in 0.0851576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Crate_01a.fbx
+  artifactKey: Guid(c0c7b14491863c241a11772765f86d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Crate_01a.fbx using Guid(c0c7b14491863c241a11772765f86d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88e4b42ce952d517e0b49332b780e2d0') in 0.0731932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Basket_02.fbx
+  artifactKey: Guid(ecb9c0970df71054ba737cea1a00120c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Basket_02.fbx using Guid(ecb9c0970df71054ba737cea1a00120c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0662bfc59bb0f396fe167fd9f50ae4ae') in 0.0769876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Painted_Side_02e.fbx
+  artifactKey: Guid(9812e6affbcc3744f97cd1c6a266bacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Painted_Side_02e.fbx using Guid(9812e6affbcc3744f97cd1c6a266bacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5890860602c4db050a55dd3bb31f3b4f') in 0.0889033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Tool_Basket_01.fbx
+  artifactKey: Guid(4ccd36a85ba57a74eb8759860c7b3871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Tool_Basket_01.fbx using Guid(4ccd36a85ba57a74eb8759860c7b3871) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18d00836fcffc62cea3970b9dcc7d113') in 0.0803001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Painted_Front_02a.fbx
+  artifactKey: Guid(1ce8c072405e7274fa145d02a18fac73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Painted_Front_02a.fbx using Guid(1ce8c072405e7274fa145d02a18fac73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b91f70d4f0c2c8f1fbcdb1384f2142be') in 0.1002036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Crate_02a.fbx
+  artifactKey: Guid(ebce493bda9473e4e9895e76b409a2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Crate_02a.fbx using Guid(ebce493bda9473e4e9895e76b409a2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74c128b67830236da3cfda138a791c5b') in 0.1025589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_OutBuilding_Cubby_01d.fbx
+  artifactKey: Guid(6ee362c65b6f7d0468ee697b6fa177f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_OutBuilding_Cubby_01d.fbx using Guid(6ee362c65b6f7d0468ee697b6fa177f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14c030a0cd152e8a6f69e1426deee816') in 0.0936053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Basket_04a.fbx
+  artifactKey: Guid(f6abdef6e96d7554bab4cae54ac1516d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Basket_04a.fbx using Guid(f6abdef6e96d7554bab4cae54ac1516d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e5618f7f48ce2bd2738cb8acc0f6075') in 0.0822941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Crate_Under_Ceiling_01b.fbx
+  artifactKey: Guid(25630030e2eaee246b24778a07935e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Crate_Under_Ceiling_01b.fbx using Guid(25630030e2eaee246b24778a07935e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bda6e641fc4d8316e4164beef7312b39') in 0.0913613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Tabble_01a.fbx
+  artifactKey: Guid(182a919d67edf954198ec0f464311a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Tabble_01a.fbx using Guid(182a919d67edf954198ec0f464311a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e5e07062198a8fe1fe2049c97e7650d') in 0.083018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Painted_Side_02c.fbx
+  artifactKey: Guid(0941fc100f37a6b4babe0bc7ec19a532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Painted_Side_02c.fbx using Guid(0941fc100f37a6b4babe0bc7ec19a532) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95ec203d2dfc667e2b5557c14f285faa') in 0.085814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Brushwood_03a.fbx
+  artifactKey: Guid(7711dbac294ab964da7ef592d0a651b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Brushwood_03a.fbx using Guid(7711dbac294ab964da7ef592d0a651b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24d7282a75fb40e0487a54fb971d52da') in 0.0738748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Pillow_01d.fbx
+  artifactKey: Guid(642bbb7897dcde44e9917d410cac5309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Pillow_01d.fbx using Guid(642bbb7897dcde44e9917d410cac5309) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd78003868d2784237e3e0b74992c14ee') in 0.0810189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.535732 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Forester_wooden_01d.fbx
+  artifactKey: Guid(d9dfdee99a6a7834292c848b8682da8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Forester_wooden_01d.fbx using Guid(d9dfdee99a6a7834292c848b8682da8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '197a87d4374cad1a7986d07fec810046') in 0.0781849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_pan_empty_01a.fbx
+  artifactKey: Guid(ae024c3e1ae079546a061550ce88ef0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_pan_empty_01a.fbx using Guid(ae024c3e1ae079546a061550ce88ef0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b46a0486a78a440cf09e48eacdc020f') in 0.1047129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Balcony_R_01a.fbx
+  artifactKey: Guid(3cdab808e659dab48a77f94903885475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Balcony_R_01a.fbx using Guid(3cdab808e659dab48a77f94903885475) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fa528a360cf8644da84c682ac4ddf44') in 0.0958136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_OutBuilding_WoodRoof_01b.fbx
+  artifactKey: Guid(2b5de340e32bb484095bc0e4ec89bdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_OutBuilding_WoodRoof_01b.fbx using Guid(2b5de340e32bb484095bc0e4ec89bdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e437444f73308113bd4b3c3255faf8d5') in 0.0859511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Village_Ladder_02a.fbx
+  artifactKey: Guid(65eda0c3b934409488f4868dba95a65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Village_Ladder_02a.fbx using Guid(65eda0c3b934409488f4868dba95a65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37ac2830cfb765841c2ac4e74795f64a') in 0.087256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_kettle_empty_01a.fbx
+  artifactKey: Guid(64269ae04169bfa4faf3bb8f18263056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_kettle_empty_01a.fbx using Guid(64269ae04169bfa4faf3bb8f18263056) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '226111adee5f30046ef6c27957e62b0a') in 0.0725878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Village_Hut_Foundation_02b.fbx
+  artifactKey: Guid(a39e54eda47beb84daec65dffc50bd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Village_Hut_Foundation_02b.fbx using Guid(a39e54eda47beb84daec65dffc50bd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25b7501bdbcbe6d43ccc8a3dc099ccb3') in 0.0661613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_bowl_wod_2.fbx
+  artifactKey: Guid(d390f7be5d30cac429d05cc9fdea3abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_bowl_wod_2.fbx using Guid(d390f7be5d30cac429d05cc9fdea3abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '146871e7c2fe067eded45f1c5cf95d78') in 0.0792738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Front_03f.fbx
+  artifactKey: Guid(2d16253b9a07ac146b50e2fa3d8ff286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Front_03f.fbx using Guid(2d16253b9a07ac146b50e2fa3d8ff286) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75fd0361aec7b79644a83e85e90c062d') in 0.0742355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Nature_Bush_01d.fbx
+  artifactKey: Guid(1c39d64858c40464ba9a62c51115ca21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Nature_Bush_01d.fbx using Guid(1c39d64858c40464ba9a62c51115ca21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74d3b57e826e1f2a0e5cb74079b9fd14') in 0.1039828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_spoon_wooden_05.fbx
+  artifactKey: Guid(b2c9c2c5cab7ba4488b2631a33c16c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_spoon_wooden_05.fbx using Guid(b2c9c2c5cab7ba4488b2631a33c16c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8c2872d3be771b4206c902de45c589b') in 0.09548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Fence_01a.fbx
+  artifactKey: Guid(a660a4d6df7174347be374a2e596912c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Fence_01a.fbx using Guid(a660a4d6df7174347be374a2e596912c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee8270ab989ccccb069fbdf479d4216b') in 0.1007796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_spoon_wooden_04.fbx
+  artifactKey: Guid(b1390cea618c0d4468b6860e020625d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_spoon_wooden_04.fbx using Guid(b1390cea618c0d4468b6860e020625d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '499f067af2d940af82e17c7dae703200') in 0.0669959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Fence_Plank_02a.fbx
+  artifactKey: Guid(9acbb48a36abbf644aa940a03eecaab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Fence_Plank_02a.fbx using Guid(9acbb48a36abbf644aa940a03eecaab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee4c23d7347bb3bdc692c6e45ae05244') in 0.0569237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_bowl_wod.fbx
+  artifactKey: Guid(12da85f96e7b10748997a139f608eaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_bowl_wod.fbx using Guid(12da85f96e7b10748997a139f608eaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8d8fe57668cec4f884abc989db4bace') in 0.0653262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_cauldron_01a.fbx
+  artifactKey: Guid(18e6697db3d760b458f4b70bc98f7d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_cauldron_01a.fbx using Guid(18e6697db3d760b458f4b70bc98f7d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f3ecb8639baec21a4de900afc6f781e') in 0.0654157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Town_Bench_01b.fbx
+  artifactKey: Guid(8647ab6061606654c8ae1905d1949196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Town_Bench_01b.fbx using Guid(8647ab6061606654c8ae1905d1949196) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a0bf06806c74a8680b0718aa57f5e5a') in 0.060539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Environment_Rock_CatHead_01a.fbx
+  artifactKey: Guid(12b89b2c07a83d3468b1100ad432e817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Environment_Rock_CatHead_01a.fbx using Guid(12b89b2c07a83d3468b1100ad432e817) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b483a70e6fb125186ac3050b4dd00aa2') in 0.06977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Plant_Grass_01d.fbx
+  artifactKey: Guid(0112cde65927c774897cff6d38ff9663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Plant_Grass_01d.fbx using Guid(0112cde65927c774897cff6d38ff9663) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '306b01be439c235d86e75eda5a75a959') in 0.0695419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Environment_Sand_01b.fbx
+  artifactKey: Guid(d0b14770faab2644aad8e21fecbdc365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Environment_Sand_01b.fbx using Guid(d0b14770faab2644aad8e21fecbdc365) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86689a934dc0a05afe9c01ffe4785488') in 0.0672224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_mug_01b.fbx
+  artifactKey: Guid(9ed8f0123ad60624e87f3ddcd0949986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_mug_01b.fbx using Guid(9ed8f0123ad60624e87f3ddcd0949986) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b96d135a8641a384624b09b118310ca') in 0.0648083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_HouseModule_Porch_R_03b.fbx
+  artifactKey: Guid(42208ee65d50f4b4aa6eae18b24287e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_HouseModule_Porch_R_03b.fbx using Guid(42208ee65d50f4b4aa6eae18b24287e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a6e9c82648c427b359433bead79fa06') in 0.103235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_cauldron_01d.fbx
+  artifactKey: Guid(d586b1c8084ec0f41a977d8fcc404990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_cauldron_01d.fbx using Guid(d586b1c8084ec0f41a977d8fcc404990) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d40216affc0702039142512eed06fc5') in 0.0927628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Front_02i.fbx
+  artifactKey: Guid(04e6236850221664a92860d51717c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Front_02i.fbx using Guid(04e6236850221664a92860d51717c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '472b0f311650bac40b3e91a87494a37e') in 0.1075946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Fence_Cobble_End_01a.fbx
+  artifactKey: Guid(eeeebdee7045bae46a534f6cbb5ffc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Fence_Cobble_End_01a.fbx using Guid(eeeebdee7045bae46a534f6cbb5ffc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b054d30509fc68ed711f451601b3c92') in 0.0808908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Town_Bench_01a.fbx
+  artifactKey: Guid(1fbffa5408e364f4f81ae10cf69ba3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Town_Bench_01a.fbx using Guid(1fbffa5408e364f4f81ae10cf69ba3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b0b33d06fb73df6a43b34beafc187d5') in 0.0809165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Roof_Cut_01d.fbx
+  artifactKey: Guid(94d50895a53b689418ddff691e4219fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Roof_Cut_01d.fbx using Guid(94d50895a53b689418ddff691e4219fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '334ce0ae05897d9f3a1eff0c8bf8b4e3') in 0.1068013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Town_Building_Administrative _01a.fbx
+  artifactKey: Guid(8c06a8469c34d86469295b9327c93b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Town_Building_Administrative _01a.fbx using Guid(8c06a8469c34d86469295b9327c93b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1075ed7783be7bfe8066c3c94956f72a') in 0.1058958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Ceiling_01e.fbx
+  artifactKey: Guid(de708639cc9e7e2429d0f70d6792357f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Ceiling_01e.fbx using Guid(de708639cc9e7e2429d0f70d6792357f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75b1999b7f630a01c6fa78b8cbfda1fa') in 0.0973895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Town_Ill_Roof_01b.fbx
+  artifactKey: Guid(752cdcbf93262af44a9a365bc1aae4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Town_Ill_Roof_01b.fbx using Guid(752cdcbf93262af44a9a365bc1aae4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e12c1e59c61a9c06946de7664fc629f9') in 0.1001651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.444869 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/BlueSky.png
+  artifactKey: Guid(60d4d0573fefbf24198d33863004e7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/BlueSky.png using Guid(60d4d0573fefbf24198d33863004e7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5264b0189aeaffab0718b04c9b886a0f') in 0.0293824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.217732 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/BrightSky.png
+  artifactKey: Guid(b93b6450b9bd1f44da176ac4a821c3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/BrightSky.png using Guid(b93b6450b9bd1f44da176ac4a821c3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d881c9132367dab36c6442dc011be22') in 0.0176007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036219 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/ClearSky.png
+  artifactKey: Guid(db0321d865208c648ae843f39ab69004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/ClearSky.png using Guid(db0321d865208c648ae843f39ab69004) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6063febcfc0a300550a7880709abe3cd') in 0.0173665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/CloudySky@2x.png
+  artifactKey: Guid(c30d00a81d6542c40ae1837621e3969e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/CloudySky@2x.png using Guid(c30d00a81d6542c40ae1837621e3969e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eeec6c624c56d6cce27e10c01ce9bb9d') in 0.016678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_BlueSky@2x.png
+  artifactKey: Guid(0b39f97ea330aac459e3fbb440f4b0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_BlueSky@2x.png using Guid(0b39f97ea330aac459e3fbb440f4b0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84d74a8de50fe9773c18b713da8fe867') in 0.0224736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_CloudySky.png
+  artifactKey: Guid(0c24a3ead3381ee4cb4574c5be266d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_CloudySky.png using Guid(0c24a3ead3381ee4cb4574c5be266d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bffe97514e49695ae3a2b9906fb72bd8') in 0.0209739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/DynamicGI/DynamicGISkyOcclusion.urtshader
+  artifactKey: Guid(5a2a534753fbdb44e96c3c78b5a6999d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/DynamicGI/DynamicGISkyOcclusion.urtshader using Guid(5a2a534753fbdb44e96c3c78b5a6999d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d778aa700872ed5a0caf65c64f89bea') in 0.0023282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_BrightSky.png
+  artifactKey: Guid(a543c2d2147884347a1846e862efa72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_BrightSky.png using Guid(a543c2d2147884347a1846e862efa72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1162af553d2c0c54ded3537f62cbabc2') in 0.0340698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_BrightSky@2x.png
+  artifactKey: Guid(9a278b70c427e8e4caa47a45a5d59de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_BrightSky@2x.png using Guid(9a278b70c427e8e4caa47a45a5d59de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c45686eef8aa63b375688e8d2f4134f') in 0.0232782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.836829 seconds.
+  path: Assets/EmaceArt/Slavic World Free/Terrain/SlavicaTerrainDemo.mat
+  artifactKey: Guid(3cfffe3571edb72408130af112d67edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/Slavic World Free/Terrain/SlavicaTerrainDemo.mat using Guid(3cfffe3571edb72408130af112d67edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fd900a8cb802ac90c1541e8069c02f3') in 0.0114777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph
+  artifactKey: Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph using Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e87696fff15129bdc4a7e4e1d29ae93') in 0.0278141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Shaders/TriPlane.shadergraph
+  artifactKey: Guid(94ddfc7609878124bbc71699c83e7276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Shaders/TriPlane.shadergraph using Guid(94ddfc7609878124bbc71699c83e7276) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e75a328e51ff636314d7bd2ea0f081e') in 0.014618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph
+  artifactKey: Guid(f63d574838ccfb44f84acc05fed0af48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph using Guid(f63d574838ccfb44f84acc05fed0af48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbcb455edbe00f8c8dc9636555c42ede') in 0.0120866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.862348 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Scene/Demo scene/OcclusionCullingData.asset
+  artifactKey: Guid(4f9361fe0854d414f87b4c5534792fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Scene/Demo scene/OcclusionCullingData.asset using Guid(4f9361fe0854d414f87b4c5534792fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c840ed262906112dc77fba1e3e639ba') in 0.0788348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.501591 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Scene/Terrain Data/New Terrain.asset
+  artifactKey: Guid(d84d0cc3427e7bc4bba420ebc6a92865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Scene/Terrain Data/New Terrain.asset using Guid(d84d0cc3427e7bc4bba420ebc6a92865) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd92ec8d6801a079048f8d0e2ff954033') in 0.2752258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 245
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Scene/Terrain Data/TerrainData_54860666-a14e-43ff-808c-0f74564a9297.asset
+  artifactKey: Guid(8373cc0e9d37133478d96b0867e94f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Scene/Terrain Data/TerrainData_54860666-a14e-43ff-808c-0f74564a9297.asset using Guid(8373cc0e9d37133478d96b0867e94f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09f793499d33443aaaafb0d6710087c7') in 0.0485645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Scene/Terrain Data/TerrainData_365f4d11-1926-4730-bced-b3d1edc1ea4a.asset
+  artifactKey: Guid(f0753b60a0fe30047854f954c39525c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Scene/Terrain Data/TerrainData_365f4d11-1926-4730-bced-b3d1edc1ea4a.asset using Guid(f0753b60a0fe30047854f954c39525c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '833eb578e390bf368d0bc181be61fdda') in 0.0472933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.849466 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Clouds/cloud 1.prefab
+  artifactKey: Guid(cad2461465a2fe041ada4fe979fd621d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Clouds/cloud 1.prefab using Guid(cad2461465a2fe041ada4fe979fd621d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c43e2ca5fd040de42f85bdcf3233694') in 0.0264255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Clouds/cloud 5.prefab
+  artifactKey: Guid(6ecad759d9adf5a46bf157ca9410e05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Clouds/cloud 5.prefab using Guid(6ecad759d9adf5a46bf157ca9410e05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29b1cf3ba79ecc2ef3ca9d9f7e635a0d') in 0.0281995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Clouds/cloud 4.prefab
+  artifactKey: Guid(26b520b518bde8a48908669dd3cd50b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Clouds/cloud 4.prefab using Guid(26b520b518bde8a48908669dd3cd50b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60338503348ce33f824bac7102cce057') in 0.0233842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.015772 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Effects/Fire.prefab
+  artifactKey: Guid(46674a79bc7f60445bec7b7f685b208c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Effects/Fire.prefab using Guid(46674a79bc7f60445bec7b7f685b208c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '720142f05a52a18e968b460e40b5825b') in 0.0242362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Effects/Nothern lights.prefab
+  artifactKey: Guid(2153ba19f018d204683408cd5d46d2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Effects/Nothern lights.prefab using Guid(2153ba19f018d204683408cd5d46d2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22c8b641e62a5d46a78c991a731213fa') in 0.0242147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Effects/Wind effect 2.prefab
+  artifactKey: Guid(481b20d4d315701449d6a8c9f152c671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Effects/Wind effect 2.prefab using Guid(481b20d4d315701449d6a8c9f152c671) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f93949a864f2f40fc84a0eb30162ca1b') in 0.0206404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Effects/Wind effect 1.prefab
+  artifactKey: Guid(2205069423613f64db250ea83f8e9719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Effects/Wind effect 1.prefab using Guid(2205069423613f64db250ea83f8e9719) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67f3158c1aa3c2bb365415fe1e8b810f') in 0.0214863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.754430 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Prop/Flower 1.prefab
+  artifactKey: Guid(befcbfcc0efbdf249988ff1f9bdbb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Prop/Flower 1.prefab using Guid(befcbfcc0efbdf249988ff1f9bdbb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb4db996f6832f9193a39547864b893e') in 0.0252619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Prop/rock prop.prefab
+  artifactKey: Guid(828ae42dcda215f42aa77852d46465a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Prop/rock prop.prefab using Guid(828ae42dcda215f42aa77852d46465a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a252b17af1f5ae9a282227b14ef20cdf') in 0.0213629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Prop/Rcok 1.prefab
+  artifactKey: Guid(181c6e3fa1ebc2b4fac6a30db3601e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Prop/Rcok 1.prefab using Guid(181c6e3fa1ebc2b4fac6a30db3601e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7dda4ffebda7c0d033bf8740c90c6c98') in 0.0459677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Prop/Water flower.prefab
+  artifactKey: Guid(2787081855342bd4eb7d77c055018e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Prop/Water flower.prefab using Guid(2787081855342bd4eb7d77c055018e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc5770b400c52f70763665b5d2cb2d32') in 0.030364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Prop/Grass 2.prefab
+  artifactKey: Guid(dc78be0b59c94b34bbc1c85cdcbe154c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Prop/Grass 2.prefab using Guid(dc78be0b59c94b34bbc1c85cdcbe154c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f7385cddc5e93c3b019f2083395a624') in 0.0341263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Prop/Rock 2.prefab
+  artifactKey: Guid(5c694260b27817c4cb0c05253bb5ef69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Prop/Rock 2.prefab using Guid(5c694260b27817c4cb0c05253bb5ef69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e4592c59d7a0187ec8032d60e071f00') in 0.0278329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Prop/Grass.prefab
+  artifactKey: Guid(9003a7a1c2ea88448a9bc9a77ec3c8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Prop/Grass.prefab using Guid(9003a7a1c2ea88448a9bc9a77ec3c8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc64063be8c9801cdd6f908e81310de0') in 0.0296985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Prop/Mushroom 3.prefab
+  artifactKey: Guid(a0906f5c35d2d9a4696615712e456e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Prop/Mushroom 3.prefab using Guid(a0906f5c35d2d9a4696615712e456e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0af7cd665467338044ceff9a86edf1fc') in 0.0222198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.007449 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Trees/Tree 1.prefab
+  artifactKey: Guid(a2d67909a2812e5418007869a0db0268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Trees/Tree 1.prefab using Guid(a2d67909a2812e5418007869a0db0268) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55a322e40648dca0c561bcd330f5d9bf') in 0.0241595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Trees/Tree 7.prefab
+  artifactKey: Guid(2db88ccdbbf761049971049deb06b6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Trees/Tree 7.prefab using Guid(2db88ccdbbf761049971049deb06b6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41d69324a328876cc46db52a65fac713') in 0.0230604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Trees/Tree 8.prefab
+  artifactKey: Guid(dc38606b118fd7b42b3f02c145c608ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Trees/Tree 8.prefab using Guid(dc38606b118fd7b42b3f02c145c608ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd32baef6a2ad96e8191984a6241cf904') in 0.0244388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Trees/Tree 4.prefab
+  artifactKey: Guid(a6bfa7926e199b747b96f9f737e9e546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Prefabs/Nature/Trees/Tree 4.prefab using Guid(a6bfa7926e199b747b96f9f737e9e546) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8de905a5ee75a132f62fbfba14424cf') in 0.0227981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.130258 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Matereals/EA03_LowPolyBigClouds_Up+Y.png
+  artifactKey: Guid(baa5db67bd1e3694fa4fa5d807ac3195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Matereals/EA03_LowPolyBigClouds_Up+Y.png using Guid(baa5db67bd1e3694fa4fa5d807ac3195) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d1c682c09bf134acb8319cccc38686e') in 0.0268246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.506372 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Matereals/EA03_LowPolyBigClouds_Up+Y.mat.png
+  artifactKey: Guid(baa5db67bd1e3694fa4fa5d807ac3195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Matereals/EA03_LowPolyBigClouds_Up+Y.mat.png using Guid(baa5db67bd1e3694fa4fa5d807ac3195) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20941341ddef79b1c77f083db2b3593e') in 0.0261673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.523589 seconds.
+  path: Assets/Cody Dreams/Low Poly Stylized Nature/Matereals/EA03_LowPolyBigClouds_Up+Y.mat
+  artifactKey: Guid(ec4fd38888fea604bb73b9ee8bf4554d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Low Poly Stylized Nature/Matereals/EA03_LowPolyBigClouds_Up+Y.mat using Guid(ec4fd38888fea604bb73b9ee8bf4554d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Unknown error occurred while loading 'Assets/Cody Dreams/Low Poly Stylized Nature/Matereals/EA03_LowPolyBigClouds_Up+Y.mat'.
+ -> (artifact id: 'd26d3124db84f31173e9ebdeb664fefc') in 0.0015501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.547 seconds
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\roror\Documents\EFREI\S6\LXP-Unity\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\roror\Documents\EFREI\S6\LXP-Unity\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindowLPSNP' threw an exception.
+
+
+(Filename: Assets/Cody Dreams/Low Poly Stylized Nature/Editor/FeedbackWindowLPSNP.cs Line: 43)
+
+Native extension for WindowsStandalone target not found
+UnityEngine.UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\roror\Documents\EFREI\S6\LXP-Unity\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\roror\Documents\EFREI\S6\LXP-Unity\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\roror\Documents\EFREI\S6\LXP-Unity\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\roror\Documents\EFREI\S6\LXP-Unity\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindowLPSNP' threw an exception.
+
+
+(Filename: Assets/Cody Dreams/Low Poly Stylized Nature/Editor/FeedbackWindowLPSNP.cs Line: 43)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.621 seconds
+Domain Reload Profiling: 4160ms
+	BeginReloadAssembly (480ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (33ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (143ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (885ms)
+		LoadAssemblies (638ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (442ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (391ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (2621ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1434ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (201ms)
+			ProcessInitializeOnLoadAttributes (1088ms)
+			ProcessInitializeOnLoadMethodAttributes (118ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (238ms)
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5965 unused Assets / (5.5 MB). Loaded Objects now: 6614.
+Memory consumption went from 230.5 MB to 225.0 MB.
+Total: 23.227600 ms (FindLiveObjects: 0.885500 ms CreateObjectMapping: 1.163200 ms MarkObjects: 17.547000 ms  DeleteObjects: 3.630700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.700 seconds
+Refreshing native plugins compatible for Editor in 3.52 ms, found 3 plugins.
+UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\roror\Documents\EFREI\S6\LXP-Unity\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\roror\Documents\EFREI\S6\LXP-Unity\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindowLPSNP' threw an exception.
+
+
+(Filename: Assets/Cody Dreams/Low Poly Stylized Nature/Editor/FeedbackWindowLPSNP.cs Line: 43)
+
+Native extension for WindowsStandalone target not found
+UnityEngine.UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\roror\Documents\EFREI\S6\LXP-Unity\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\roror\Documents\EFREI\S6\LXP-Unity\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\roror\Documents\EFREI\S6\LXP-Unity\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\roror\Documents\EFREI\S6\LXP-Unity\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindowLPSNP' threw an exception.
+
+
+(Filename: Assets/Cody Dreams/Low Poly Stylized Nature/Editor/FeedbackWindowLPSNP.cs Line: 43)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.947 seconds
+Domain Reload Profiling: 4644ms
+	BeginReloadAssembly (500ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (48ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (97ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (1031ms)
+		LoadAssemblies (730ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (534ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (479ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (2947ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1514ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (283ms)
+			ProcessInitializeOnLoadAttributes (1104ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (218ms)
+Refreshing native plugins compatible for Editor in 2.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5963 unused Assets / (5.9 MB). Loaded Objects now: 6617.
+Memory consumption went from 230.4 MB to 224.5 MB.
+Total: 27.379900 ms (FindLiveObjects: 0.729300 ms CreateObjectMapping: 0.802300 ms MarkObjects: 22.022800 ms  DeleteObjects: 3.823900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.250 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.03 ms, found 3 plugins.
+UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\roror\Documents\EFREI\S6\LXP-Unity\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\roror\Documents\EFREI\S6\LXP-Unity\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindowLPSNP' threw an exception.
+
+
+(Filename: Assets/Cody Dreams/Low Poly Stylized Nature/Editor/FeedbackWindowLPSNP.cs Line: 43)
+
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+UnityEngine.UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\roror\Documents\EFREI\S6\LXP-Unity\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\roror\Documents\EFREI\S6\LXP-Unity\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\roror\Documents\EFREI\S6\LXP-Unity\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\roror\Documents\EFREI\S6\LXP-Unity\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindowLPSNP' threw an exception.
+
+
+(Filename: Assets/Cody Dreams/Low Poly Stylized Nature/Editor/FeedbackWindowLPSNP.cs Line: 43)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.178 seconds
+Domain Reload Profiling: 7416ms
+	BeginReloadAssembly (711ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (35ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (123ms)
+	RebuildCommonClasses (177ms)
+	RebuildNativeTypeToScriptingClass (86ms)
+	initialDomainReloadingComplete (123ms)
+	LoadAllAssembliesAndSetupDomain (1141ms)
+		LoadAssemblies (1021ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (562ms)
+			TypeCache.Refresh (54ms)
+				TypeCache.ScanAssembly (32ms)
+			BuildScriptInfoCaches (474ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (5179ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3656ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (23ms)
+			BeforeProcessingInitializeOnLoad (584ms)
+			ProcessInitializeOnLoadAttributes (2796ms)
+			ProcessInitializeOnLoadMethodAttributes (227ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (341ms)
+Refreshing native plugins compatible for Editor in 2.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6356 unused Assets / (5.9 MB). Loaded Objects now: 7011.
+Memory consumption went from 233.4 MB to 227.5 MB.
+Total: 39.873600 ms (FindLiveObjects: 1.435400 ms CreateObjectMapping: 0.920500 ms MarkObjects: 30.284400 ms  DeleteObjects: 7.230800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 582.927155 seconds.
+  path: Packages/com.unity.cinemachine/package.json
+  artifactKey: Guid(7a97571b2775aab4e8bf63d9ceb96743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.cinemachine/package.json using Guid(7a97571b2775aab4e8bf63d9ceb96743) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d168698cbb9d495b7736663b0b5844b') in 0.0262008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.212474 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Unity.Cinemachine.Editor.asmdef
+  artifactKey: Guid(ba8c092d026123a418fb4bfb797a7bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.cinemachine/Editor/Unity.Cinemachine.Editor.asmdef using Guid(ba8c092d026123a418fb4bfb797a7bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '037dacfbe82498370154123eb8d9b0b3') in 0.0009051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.216285 seconds.
+  path: Packages/com.unity.cinemachine/Presets/Noise/6D Shake.asset
+  artifactKey: Guid(69ce8388f6785dd4c8c39915efece2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.cinemachine/Presets/Noise/6D Shake.asset using Guid(69ce8388f6785dd4c8c39915efece2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '745fb882142293fe2fa326519e9a17cc') in 0.0037809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.cinemachine/Presets/Noise/Handheld_tele_strong.asset
+  artifactKey: Guid(554b0ed52734c154eab51f6cedd3a7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.cinemachine/Presets/Noise/Handheld_tele_strong.asset using Guid(554b0ed52734c154eab51f6cedd3a7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a59dd4815f2e057d228b2c4b545e2058') in 0.001696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Packages/com.unity.cinemachine/Presets/Noise/Handheld_wideangle_strong.asset
+  artifactKey: Guid(20e46be82478fa24b90f748044c06b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.cinemachine/Presets/Noise/Handheld_wideangle_strong.asset using Guid(20e46be82478fa24b90f748044c06b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '138a859ce428eaebf91c402646bba19e') in 0.0024515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.cinemachine/Presets/Noise/Handheld_tele_mild.asset
+  artifactKey: Guid(a3dacaec0287d7444b4bd276816e1666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.cinemachine/Presets/Noise/Handheld_tele_mild.asset using Guid(a3dacaec0287d7444b4bd276816e1666) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef632bc918db25cc9ec47ac17a2a1ea8') in 0.0023514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Packages/com.unity.cinemachine/Presets/Noise/Handheld_wideangle_mild.asset
+  artifactKey: Guid(8608ec81ee27a15488d33f9dad239e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.cinemachine/Presets/Noise/Handheld_wideangle_mild.asset using Guid(8608ec81ee27a15488d33f9dad239e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '262afc42f51a46ddb1bd292cf353820a') in 0.0026127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Packages/com.unity.cinemachine/Presets/Noise/Handheld_normal_mild.asset
+  artifactKey: Guid(46965f9cbaf525742a6da4c2172a99cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.cinemachine/Presets/Noise/Handheld_normal_mild.asset using Guid(46965f9cbaf525742a6da4c2172a99cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe1f7bc7de23af165245a27e77736429') in 0.002468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.792992 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Unity.Cinemachine.asmdef
+  artifactKey: Guid(4307f53044263cf4b835bd812fc161a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.cinemachine/Runtime/Unity.Cinemachine.asmdef using Guid(4307f53044263cf4b835bd812fc161a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c632fe9d34ece153e77b8ca0ffb322a') in 0.0007198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
