@@ -90,7 +90,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51e8031a68d78bd4184dc2332c7d72ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 2
   bulletPrefab: {fileID: 7694164897045960032, guid: a15593e013bf861469ae94cdae954e74, type: 3}
 --- !u!114 &2694028907806847227
 MonoBehaviour:
@@ -104,6 +104,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 690f4d2d7c1f5484a8903830026ac5a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!136 &5476317897590684407
 CapsuleCollider:
   m_ObjectHideFlags: 0
