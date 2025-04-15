@@ -2,13 +2,15 @@ using UnityEngine;
 
 public class EnemyFollow : MonoBehaviour
 {
-    public Transform player;        // Référence au joueur
-    public float speed = 5f;        // Vitesse de déplacement
-    public float followHeight = 1f; // Hauteur constante de la sphère
+    public Transform player;        // Rï¿½fï¿½rence au joueur
+    public float speed = 5f;        // Vitesse de dï¿½placement
+    public float followHeight = 1f;
+    private Animator animator;
+
 
     void Start()
     {
-        // Si le joueur n'est pas assigné dans l'inspecteur, on le cherche via son tag
+        // Si le joueur n'est pas assignï¿½ dans l'inspecteur, on le cherche via son tag
         if (player == null)
         {
             GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
@@ -18,9 +20,12 @@ public class EnemyFollow : MonoBehaviour
             }
             else
             {
-                Debug.LogError("Aucun joueur trouvé avec le tag 'Player' !");
+                Debug.LogError("Aucun joueur trouvï¿½ avec le tag 'Player' !");
             }
         }
+        animator = GetComponent<Animator>();
+        bool isMoving = true;
+        animator.SetBool("isMoving", isMoving);
     }
 
     void Update()
@@ -30,11 +35,14 @@ public class EnemyFollow : MonoBehaviour
         // Position du joueur mais avec la hauteur de l'ennemi (suivi horizontal uniquement)
         Vector3 targetPosition = new Vector3(player.position.x, followHeight, player.position.z);
 
-        // Déplacement fluide vers le joueur
+        // Dï¿½placement fluide vers le joueur
         transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
 
         // Orientation vers le joueur (optionnel)
         Vector3 lookAtTarget = new Vector3(player.position.x, transform.position.y, player.position.z);
         transform.LookAt(lookAtTarget);
+
+        
+        
     }
 }

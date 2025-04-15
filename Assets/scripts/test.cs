@@ -3,7 +3,10 @@ using UnityEngine;
 public class playerController : MonoBehaviour
 {
     public float speed;
+    public int life;
     public GameObject bulletPrefab;
+
+    public GameObject gameOverScreen;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -28,6 +31,20 @@ public class playerController : MonoBehaviour
         }
         if(Input.GetKeyDown(KeyCode.Space)){
             Instantiate(bulletPrefab,this.transform.position,bulletPrefab.transform.rotation);
+        }
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("ennemy"))
+        {
+            life-=10;
+            Destroy(collision.gameObject);
+            if(life==0){
+                Destroy(gameObject);
+                gameOverScreen.SetActive(true);
+            }
+            
         }
     }
 }
