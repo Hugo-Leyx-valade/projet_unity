@@ -8,63 +8,78 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3182657002831705766, guid: d49b3de70b15bcc4c92b72c9d8610ebc, type: 3}
+    - target: {fileID: 3182657002831705766, guid: d49b3de70b15bcc4c92b72c9d8610ebc,
+        type: 3}
       propertyPath: m_LocalScale.x
       value: 0.2
       objectReference: {fileID: 0}
-    - target: {fileID: 3182657002831705766, guid: d49b3de70b15bcc4c92b72c9d8610ebc, type: 3}
+    - target: {fileID: 3182657002831705766, guid: d49b3de70b15bcc4c92b72c9d8610ebc,
+        type: 3}
       propertyPath: m_LocalScale.y
       value: 0.2
       objectReference: {fileID: 0}
-    - target: {fileID: 3182657002831705766, guid: d49b3de70b15bcc4c92b72c9d8610ebc, type: 3}
+    - target: {fileID: 3182657002831705766, guid: d49b3de70b15bcc4c92b72c9d8610ebc,
+        type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2
       objectReference: {fileID: 0}
-    - target: {fileID: 3182657002831705766, guid: d49b3de70b15bcc4c92b72c9d8610ebc, type: 3}
+    - target: {fileID: 3182657002831705766, guid: d49b3de70b15bcc4c92b72c9d8610ebc,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 182.6
       objectReference: {fileID: 0}
-    - target: {fileID: 3182657002831705766, guid: d49b3de70b15bcc4c92b72c9d8610ebc, type: 3}
+    - target: {fileID: 3182657002831705766, guid: d49b3de70b15bcc4c92b72c9d8610ebc,
+        type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.51
       objectReference: {fileID: 0}
-    - target: {fileID: 3182657002831705766, guid: d49b3de70b15bcc4c92b72c9d8610ebc, type: 3}
+    - target: {fileID: 3182657002831705766, guid: d49b3de70b15bcc4c92b72c9d8610ebc,
+        type: 3}
       propertyPath: m_LocalPosition.z
       value: 109.4
       objectReference: {fileID: 0}
-    - target: {fileID: 3182657002831705766, guid: d49b3de70b15bcc4c92b72c9d8610ebc, type: 3}
+    - target: {fileID: 3182657002831705766, guid: d49b3de70b15bcc4c92b72c9d8610ebc,
+        type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3182657002831705766, guid: d49b3de70b15bcc4c92b72c9d8610ebc, type: 3}
+    - target: {fileID: 3182657002831705766, guid: d49b3de70b15bcc4c92b72c9d8610ebc,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3182657002831705766, guid: d49b3de70b15bcc4c92b72c9d8610ebc, type: 3}
+    - target: {fileID: 3182657002831705766, guid: d49b3de70b15bcc4c92b72c9d8610ebc,
+        type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3182657002831705766, guid: d49b3de70b15bcc4c92b72c9d8610ebc, type: 3}
+    - target: {fileID: 3182657002831705766, guid: d49b3de70b15bcc4c92b72c9d8610ebc,
+        type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3182657002831705766, guid: d49b3de70b15bcc4c92b72c9d8610ebc, type: 3}
+    - target: {fileID: 3182657002831705766, guid: d49b3de70b15bcc4c92b72c9d8610ebc,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3182657002831705766, guid: d49b3de70b15bcc4c92b72c9d8610ebc, type: 3}
+    - target: {fileID: 3182657002831705766, guid: d49b3de70b15bcc4c92b72c9d8610ebc,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3182657002831705766, guid: d49b3de70b15bcc4c92b72c9d8610ebc, type: 3}
+    - target: {fileID: 3182657002831705766, guid: d49b3de70b15bcc4c92b72c9d8610ebc,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6325073326240866903, guid: d49b3de70b15bcc4c92b72c9d8610ebc, type: 3}
+    - target: {fileID: 6325073326240866903, guid: d49b3de70b15bcc4c92b72c9d8610ebc,
+        type: 3}
       propertyPath: m_Name
       value: DragonSoulEaterPurpleHP Variant
       objectReference: {fileID: 0}
-    - target: {fileID: 6325073326240866903, guid: d49b3de70b15bcc4c92b72c9d8610ebc, type: 3}
+    - target: {fileID: 6325073326240866903, guid: d49b3de70b15bcc4c92b72c9d8610ebc,
+        type: 3}
       propertyPath: m_TagString
       value: ennemy
       objectReference: {fileID: 0}
@@ -72,19 +87,23 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6325073326240866903, guid: d49b3de70b15bcc4c92b72c9d8610ebc, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 6325073326240866903, guid: d49b3de70b15bcc4c92b72c9d8610ebc,
+        type: 3}
       insertIndex: -1
       addedObject: {fileID: 36057598098426741}
-    - targetCorrespondingSourceObject: {fileID: 6325073326240866903, guid: d49b3de70b15bcc4c92b72c9d8610ebc, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 6325073326240866903, guid: d49b3de70b15bcc4c92b72c9d8610ebc,
+        type: 3}
       insertIndex: -1
       addedObject: {fileID: 2288997650790506621}
-    - targetCorrespondingSourceObject: {fileID: 6325073326240866903, guid: d49b3de70b15bcc4c92b72c9d8610ebc, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 6325073326240866903, guid: d49b3de70b15bcc4c92b72c9d8610ebc,
+        type: 3}
       insertIndex: -1
       addedObject: {fileID: 6612314207606019922}
   m_SourcePrefab: {fileID: 100100000, guid: d49b3de70b15bcc4c92b72c9d8610ebc, type: 3}
 --- !u!1 &6673380231877356788 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 6325073326240866903, guid: d49b3de70b15bcc4c92b72c9d8610ebc, type: 3}
+  m_CorrespondingSourceObject: {fileID: 6325073326240866903, guid: d49b3de70b15bcc4c92b72c9d8610ebc,
+    type: 3}
   m_PrefabInstance: {fileID: 818449358915325603}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &36057598098426741
@@ -100,11 +119,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  detectionRange: 30
-  stopDistance: 15
+  detectionRange: 25
+  stopDistance: 10
   speed: 3
   followHeight: 1
-  projectilePrefab: {fileID: 3746644245564197347, guid: d4c9cbdc1ec199749a71a1eacb31831f, type: 3}
+  projectilePrefab: {fileID: 3746644245564197347, guid: d4c9cbdc1ec199749a71a1eacb31831f,
+    type: 3}
   shootCooldown: 2
 --- !u!54 &2288997650790506621
 Rigidbody:

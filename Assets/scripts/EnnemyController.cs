@@ -4,7 +4,7 @@ public class EnemyFollow : MonoBehaviour
 {
     public Transform player;        // R�f�rence au joueur
     public float speed = 5f;        // Vitesse de d�placement
-    public float followHeight = 1f;
+    public float followHeight = -5f;
     private Animator animator;
 
 
@@ -32,17 +32,20 @@ public class EnemyFollow : MonoBehaviour
     {
         if (player == null) return;
 
-        // Position du joueur mais avec la hauteur de l'ennemi (suivi horizontal uniquement)
-        Vector3 targetPosition = new Vector3(player.position.x, followHeight, player.position.z);
+            // Position cible (même X et Z que le joueur, mais Y fixé à followHeight)
+            Vector3 targetPosition = new Vector3(player.position.x, followHeight, player.position.z);
 
-        // D�placement fluide vers le joueur
-        transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
+            // Déplacement horizontal uniquement, Y bloqué
+            Vector3 newPosition = Vector3.MoveTowards(
+            new Vector3(transform.position.x, followHeight, transform.position.z), // position actuelle avec Y figé
+            targetPosition,
+            speed * Time.deltaTime
+        );
 
-        // Orientation vers le joueur (optionnel)
+        transform.position = newPosition;
+
+        // Orientation vers le joueur (ignore Y pour éviter de pencher)
         Vector3 lookAtTarget = new Vector3(player.position.x, transform.position.y, player.position.z);
         transform.LookAt(lookAtTarget);
-
-        
-        
     }
 }
