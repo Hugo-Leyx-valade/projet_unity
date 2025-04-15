@@ -1,22 +1,75 @@
 using UnityEngine;
 
-public class lookTo : MonoBehaviour
+namespace BarthaSzabolcs.IsometricAiming
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    private Camera cam; 
-    void Start()
+    public class IsometricAiming : MonoBehaviour
     {
-        cam = Camera.main;
-    }
+        #region Datamembers
 
-    // Update is called once per frame
-    void Update()
-    {
-        Vector3 mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-        float angleRad = Mathf.Atan2(mousePos.y - transform.position.y, mousePos.x - transform.position.x);
-        float angleDeg = (100/Mathf.PI) * angleRad - 90 ;
+        #region Editor Settings
 
-        transform.rotation = Quaternion.Euler(0f, 0f, angleDeg);
-        Debug.DrawLine(transform.position, mousePos, Color.white, Time.deltaTime);
+        [SerializeField] private LayerMask groundMask;
+
+        #endregion
+        #region Private Fields
+
+        private Camera mainCamera;
+
+        #endregion
+
+        #endregion
+
+
+        #region Methods
+
+        #region Unity Callbacks
+
+        private void Start()
+        {
+            // Cache the camera, Camera.main is an expensive operation.
+            mainCamera = Camera.main;
+        }
+
+        private void Update()
+        {
+            Aim();
+        }
+
+        #endregion
+
+        private void Aim()
+        {
+            var (success, position) = GetMousePosition();
+            if (success)
+            {
+                // Calculate the direction
+                var direction = position - transform.position;
+
+                // You might want to delete this line.
+                // Ignore the height difference.
+                direction.y = 0;
+
+                // Make the transform look in the direction.
+                transform.forward = direction;
+            }
+        }
+
+        private (bool success, Vector3 position) GetMousePosition()
+        {
+            var ray = mainCamera.ScreenPointToRay(Input.mousePosition);
+
+            if (Physics.Raycast(ray, out var hitInfo, Mathf.Infinity, groundMask))
+            {
+                // The Raycast hit something, return with the position.
+                return (success: true, position: hitInfo.point);
+            }
+            else
+            {
+                // The Raycast did not hit anything.
+                return (success: false, position: Vector3.zero);
+            }
+        }
+
+        #endregion
     }
 }

@@ -19,3 +19,6 @@ MemoryCaptures/
 *.unitypackage
 
 .fake
+Logs/
+*.log
+*.meta

@@ -7,10 +7,15 @@ public class playerController : MonoBehaviour
     public GameObject bulletPrefab;
 
     public GameObject gameOverScreen;
+    
+    private Rigidbody _rb;
+    
+    private Camera mainCamera;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        _rb = GetComponent<Rigidbody>();
+        mainCamera = FindAnyObjectByType<Camera>();
     }
 
     // Update is called once per frame
@@ -30,7 +35,7 @@ public class playerController : MonoBehaviour
             this.transform.position+=Vector3.right * speed * Time.deltaTime;
         }
         if(Input.GetKeyDown(KeyCode.Space)){
-            Instantiate(bulletPrefab,this.transform.position,bulletPrefab.transform.rotation);
+            Instantiate(bulletPrefab, transform.position, transform.rotation);        
         }
     }
 
@@ -47,4 +52,24 @@ public class playerController : MonoBehaviour
             
         }
     }
+    
+    void FixedUpdate()
+    {
+        float inputX = Input.GetAxisRaw("Horizontal");
+        float inputY = Input.GetAxisRaw("Horizontal");
+        Vector3 movement = new Vector3(inputX, 0.0f, inputY);
+        _rb.AddForce(movement);
+        //Face muse
+        Ray cameraRay = mainCamera.ScreenPointToRay(Input.mousePosition);
+        Plane groundPlane = new Plane(Vector3.up, Vector3.zero);
+        float rayLength;
+        if (groundPlane.Raycast(cameraRay, out rayLength))
+        {
+            Vector3 pointToLook = cameraRay.GetPoint(rayLength);
+            Debug.DrawLine(cameraRay.origin, pointToLook, Color.yellow);
+
+            transform.LookAt(new Vector3(pointToLook.x, transform.position.y, pointToLook.z));
+        }
+    }
+
 }
