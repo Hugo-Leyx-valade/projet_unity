@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: df05434f4a6426847add6e434d78222e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241394
+  packageName: Fantasy Imp Creature
+  packageVersion: 1.0
+  assetPath: Assets/Imp/Materials/Ground Material.mat
+  uploadId: 556736

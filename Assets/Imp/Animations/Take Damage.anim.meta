@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8ee18431ad0aec04f94ecd9acca30566
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241394
+  packageName: Fantasy Imp Creature
+  packageVersion: 1.0
+  assetPath: Assets/Imp/Animations/Take Damage.anim
+  uploadId: 556736
