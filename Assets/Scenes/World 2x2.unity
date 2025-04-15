@@ -1178,10 +1178,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  life: 0
+  maxHealth: 100
+  currentHealth: 100
   bulletPrefab: {fileID: 7694164897045960032, guid: a15593e013bf861469ae94cdae954e74,
     type: 3}
   gameOverScreen: {fileID: 0}
+  lifelineImage: {fileID: 1840232421}
 --- !u!1001 &1092975644
 PrefabInstance:
   m_ObjectHideFlags: 0
