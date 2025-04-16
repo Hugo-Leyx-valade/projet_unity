@@ -7,8 +7,11 @@ public class EnemyRanged : MonoBehaviour
     public float stopDistance ; // Distance de tir
     public float speed = 3f;
     public float followHeight = 1f;
+<<<<<<< HEAD
+=======
     public float xp_given = 10f;
 
+>>>>>>> 1a07ea81bb521abf2e77583cdc5c11907f024d47
 
     public GameObject projectilePrefab;
     public float shootCooldown = 2f;

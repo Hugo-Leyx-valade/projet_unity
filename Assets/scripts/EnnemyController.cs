@@ -1,10 +1,17 @@
 using UnityEngine;
 
+<<<<<<< HEAD
+public class EnemyFollow : MonoBehaviour
+{
+    public Transform player;        // R�f�rence au joueur
+    public float speed = 5f;        // Vitesse de d�placement
+=======
 public class EnnemyController : MonoBehaviour
 {
     public Transform player;        // R�f�rence au joueur
     public float speed = 5f;        // Vitesse de d�placement
     public float xpGiven = 50f;
+>>>>>>> 1a07ea81bb521abf2e77583cdc5c11907f024d47
     public float followHeight = -5f;
     private Animator animator;
 
