@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.42f1 (feb9a7235030) revision 16693671'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'fr' Physical Memory: 16163 MB
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'fr' Physical Memory: 16075 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/hugol/projet_lxp
+C:/Users/samda/Desktop/COURS/I3/unity/hugoEstCon/projet_unity
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-10590
+50844
 -job-worker-count
 3
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: C:/Users/hugol/projet_lxp
-C:/Users/hugol/projet_lxp
+Successfully changed project path to: C:/Users/samda/Desktop/COURS/I3/unity/hugoEstCon/projet_unity
+C:/Users/samda/Desktop/COURS/I3/unity/hugoEstCon/projet_unity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,18 +59,18 @@ C:/Users/hugol/projet_lxp
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24652]  Target information:
+Player connection [12608]  Target information:
 
-Player connection [24652]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2864705193 [EditorId] 2864705193 [Version] 1048832 [Id] WindowsEditor(7,portable) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12608]  * "[IP] 192.168.114.1 [Port] 0 [Flags] 2 [Guid] 302011801 [EditorId] 302011801 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-K7852NC9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24652]  * "[IP] 192.168.79.1 [Port] 0 [Flags] 2 [Guid] 2864705193 [EditorId] 2864705193 [Version] 1048832 [Id] WindowsEditor(7,portable) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12608]  * "[IP] 192.168.145.1 [Port] 0 [Flags] 2 [Guid] 302011801 [EditorId] 302011801 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-K7852NC9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24652]  * "[IP] 192.168.210.1 [Port] 0 [Flags] 2 [Guid] 2864705193 [EditorId] 2864705193 [Version] 1048832 [Id] WindowsEditor(7,portable) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12608]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 302011801 [EditorId] 302011801 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-K7852NC9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24652]  * "[IP] 10.101.10.53 [Port] 0 [Flags] 2 [Guid] 2864705193 [EditorId] 2864705193 [Version] 1048832 [Id] WindowsEditor(7,portable) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12608]  * "[IP] 10.101.12.13 [Port] 0 [Flags] 2 [Guid] 302011801 [EditorId] 302011801 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-K7852NC9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24652] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [24652] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12608] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12608] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -82,61 +82,59 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 112.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.42f1 (feb9a7235030)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/hugol/projet_lxp/Assets
+[Subsystems] Discovering subsystems at path C:/Users/samda/Desktop/COURS/I3/unity/hugoEstCon/projet_unity/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
-    Vendor:   Intel
-    VRAM:     8081 MB
-    Driver:   30.0.101.1404
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Vendor:   NVIDIA
+    VRAM:     8020 MB
+    Driver:   32.0.15.7242
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017954 seconds.
-- Loaded All Assemblies, in  1.400 seconds
+Registered in 0.005105 seconds.
+- Loaded All Assemblies, in  0.543 seconds
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.141 seconds
-Domain Reload Profiling: 2529ms
-	BeginReloadAssembly (390ms)
+- Finished resetting the current domain, in  0.576 seconds
+Domain Reload Profiling: 1112ms
+	BeginReloadAssembly (181ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (118ms)
-	RebuildNativeTypeToScriptingClass (44ms)
-	initialDomainReloadingComplete (215ms)
-	LoadAllAssembliesAndSetupDomain (621ms)
-		LoadAssemblies (381ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (225ms)
+		LoadAssemblies (175ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (593ms)
-			TypeCache.Refresh (589ms)
-				TypeCache.ScanAssembly (535ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (218ms)
+				TypeCache.ScanAssembly (191ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1142ms)
+	FinalizeReload (577ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1016ms)
+		SetupLoadedEditorAssemblies (509ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (103ms)
-			SetLoadedEditorAssemblies (14ms)
-			BeforeProcessingInitializeOnLoad (181ms)
-			ProcessInitializeOnLoadAttributes (547ms)
-			ProcessInitializeOnLoadMethodAttributes (171ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (289ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -148,14 +146,20 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.011 seconds
+- Loaded All Assemblies, in  1.487 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-projet_lxp
+<RI> Initialized touch support.
+<RI> Initializing input.
+Using Windows.Gaming.Input
+<RI> Input initialized.
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -180,44 +184,1012 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.733 seconds
-Domain Reload Profiling: 3734ms
-	BeginReloadAssembly (533ms)
+- Finished resetting the current domain, in  2.550 seconds
+Domain Reload Profiling: 4029ms
+	BeginReloadAssembly (246ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (26ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (97ms)
-	RebuildCommonClasses (104ms)
-	RebuildNativeTypeToScriptingClass (34ms)
-	initialDomainReloadingComplete (105ms)
-	LoadAllAssembliesAndSetupDomain (1225ms)
-		LoadAssemblies (992ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (1091ms)
+		LoadAssemblies (722ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (541ms)
-			TypeCache.Refresh (420ms)
-				TypeCache.ScanAssembly (384ms)
-			BuildScriptInfoCaches (85ms)
-			ResolveRequiredComponents (29ms)
-	FinalizeReload (1733ms)
+		AnalyzeDomain (510ms)
+			TypeCache.Refresh (344ms)
+				TypeCache.ScanAssembly (312ms)
+			BuildScriptInfoCaches (133ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (2551ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1513ms)
+		SetupLoadedEditorAssemblies (2334ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (215ms)
-			ProcessInitializeOnLoadAttributes (1197ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (247ms)
+			ProcessInitializeOnLoadAttributes (1977ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 153 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6415 unused Assets / (11.2 MB). Loaded Objects now: 6895.
-Memory consumption went from 181.3 MB to 170.1 MB.
-Total: 25.529100 ms (FindLiveObjects: 1.376300 ms CreateObjectMapping: 0.773900 ms MarkObjects: 17.341500 ms  DeleteObjects: 6.035900 ms)
+Unloading 6361 unused Assets / (7.1 MB). Loaded Objects now: 6928.
+Memory consumption went from 252.2 MB to 245.1 MB.
+Total: 94.941400 ms (FindLiveObjects: 9.910900 ms CreateObjectMapping: 2.089200 ms MarkObjects: 74.433700 ms  DeleteObjects: 8.505900 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 3376.687585 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(df428ab918955f74b858b69ee442b2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(df428ab918955f74b858b69ee442b2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1969d8d6c5c000cabd586780e0c8d507') in 0.2323953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/TerrainData_cfddddab-d2dc-47c8-aaf6-bb884d50bb5d.asset
+  artifactKey: Guid(17cead17d2fe644479da713be5518fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_cfddddab-d2dc-47c8-aaf6-bb884d50bb5d.asset using Guid(17cead17d2fe644479da713be5518fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8feed928288f094e6f0e74926f925bef') in 0.1541621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/DefaultVolumeProfile.asset
+  artifactKey: Guid(838fe125dcfb89345bc73497eb845440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DefaultVolumeProfile.asset using Guid(838fe125dcfb89345bc73497eb845440) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cd55049fb6511746dc92ac38cd91447') in 0.0069023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TerrainData_3b661123-ba36-4e2d-81e4-d6f15d691af9.asset
+  artifactKey: Guid(7644e500b895f234180b46c5bf6c01f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_3b661123-ba36-4e2d-81e4-d6f15d691af9.asset using Guid(7644e500b895f234180b46c5bf6c01f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '962c04b8625183a159b7d33d10c12a3f') in 0.0313469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TerrainData_27659f48-dafd-41a7-979e-084cde46b10f.asset
+  artifactKey: Guid(78a26f51d5f3174438ee9ef6c0ec922b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_27659f48-dafd-41a7-979e-084cde46b10f.asset using Guid(78a26f51d5f3174438ee9ef6c0ec922b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca647d5df4395ff24e56decb89904a3b') in 0.0287514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbbd93a7afc6172e0fee4046a04e84be') in 0.0180893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4e50c2d444c82260e64a6d4d4aee46c') in 0.0042646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(60e3b6ec0ca5bb242bff61dc85f51744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(60e3b6ec0ca5bb242bff61dc85f51744) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec5f05e82599b7690d7189bc07da4ef7') in 0.0087788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/New Terrain 3.asset
+  artifactKey: Guid(ed311f930c3a26b41b0bb476c14df8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 3.asset using Guid(ed311f930c3a26b41b0bb476c14df8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44d7f1617431df926d74e0f26c17a275') in 0.0091486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.759090 seconds.
+  path: Assets/Scenes/NewBrush.brush
+  artifactKey: Guid(c0a8aebe4d9221740845b00a3c9b4e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewBrush.brush using Guid(c0a8aebe4d9221740845b00a3c9b4e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bb8bc2c3bfe2863e278629414a6efed') in 0.0258782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/NewBrush 1.brush
+  artifactKey: Guid(f260e78704599304e960e319cd1c913d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewBrush 1.brush using Guid(f260e78704599304e960e319cd1c913d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b3eb85b1b93da36e640ad0ebcad2db3') in 0.007227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scenes/NewBrush 2.brush
+  artifactKey: Guid(22e0cb3782d75044d9c983ac11041e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewBrush 2.brush using Guid(22e0cb3782d75044d9c983ac11041e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea30eac8b67c28ae7b18881ee0f02d0e') in 0.0127603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.466360 seconds.
+  path: Assets/prefab/Camera.prefab
+  artifactKey: Guid(1d742faf49180c644867ceff5c7b327f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Camera.prefab using Guid(1d742faf49180c644867ceff5c7b327f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '333164bcb860135bb35e7348217a1ca3') in 0.0035575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/prefab/DragonSoulEaterPurpleHP Variant.prefab
+  artifactKey: Guid(167a078ef18293f4eac942e4d434075c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/DragonSoulEaterPurpleHP Variant.prefab using Guid(167a078ef18293f4eac942e4d434075c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2cf0a83a495e7b3124791b7501f4f7d') in 0.0030207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/prefab/ennemy.prefab
+  artifactKey: Guid(28a14407b898e944aa0f0ae327a2a5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/ennemy.prefab using Guid(28a14407b898e944aa0f0ae327a2a5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '046e4922480b0739f88aeaeaf7efb90b') in 0.3781542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 700
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/prefab/magician.prefab
+  artifactKey: Guid(5b446a0680cab2c43b7f32db626c39ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/magician.prefab using Guid(5b446a0680cab2c43b7f32db626c39ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4583aca802b21430857e1ba5cbb11f84') in 0.4005642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 98
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/prefab/EnemySpawner.prefab
+  artifactKey: Guid(3f92877ac9895ad48bec51f90d1097af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/EnemySpawner.prefab using Guid(3f92877ac9895ad48bec51f90d1097af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a4bcb2e44052ba7c8145c07d9526e74') in 0.0281359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 365
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/prefab/X Bot.prefab
+  artifactKey: Guid(5979b0b78fa45a3418d9a40ed83bbe71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/X Bot.prefab using Guid(5979b0b78fa45a3418d9a40ed83bbe71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab29ac3726d4158f6abfc1091b8efae6') in 0.0043089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.172802 seconds.
+  path: Assets/FreeDragons/Prefab/DragonSoulEaterHP/DragonSoulEaterGreenHP.prefab
+  artifactKey: Guid(c3fd863dc649c0d45847f9e8013a0588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Prefab/DragonSoulEaterHP/DragonSoulEaterGreenHP.prefab using Guid(c3fd863dc649c0d45847f9e8013a0588) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41f23a5545263634ff747b10448dab29') in 0.0042717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 130
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FreeDragons/Prefab/DragonSoulEaterHP/DragonSoulEaterPurpleHP.prefab
+  artifactKey: Guid(39c633717d8ddf8489139eb35befa187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Prefab/DragonSoulEaterHP/DragonSoulEaterPurpleHP.prefab using Guid(39c633717d8ddf8489139eb35befa187) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6827a6130b3b73b091b64c6338461291') in 0.0053239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 130
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.067461 seconds.
+  path: Assets/FreeDragons/Prefab/DragonSoulEaterHP/DragonSoulEaterGreenHP.prefab
+  artifactKey: Guid(fb64934996b606541bc2557bc4f51645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Prefab/DragonSoulEaterHP/DragonSoulEaterGreenHP.prefab using Guid(fb64934996b606541bc2557bc4f51645) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5855f186d6cdd0ef83d3e8c18bfc47d0') in 0.2875833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 187
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/FreeDragons/Prefab/DragonSoulEaterHP/DragonSoulEaterPurpleHP.prefab
+  artifactKey: Guid(d49b3de70b15bcc4c92b72c9d8610ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Prefab/DragonSoulEaterHP/DragonSoulEaterPurpleHP.prefab using Guid(d49b3de70b15bcc4c92b72c9d8610ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f4eccb78e39c7da2ebdeb8372960198') in 0.0491727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 187
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.882 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindowLPSNP' threw an exception.
+
+
+(Filename: Assets/Cody Dreams/Low Poly Stylized Nature/Editor/FeedbackWindowLPSNP.cs Line: 43)
+
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+UnityEngine.UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindowLPSNP' threw an exception.
+
+
+(Filename: Assets/Cody Dreams/Low Poly Stylized Nature/Editor/FeedbackWindowLPSNP.cs Line: 43)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.135 seconds
+Domain Reload Profiling: 3013ms
+	BeginReloadAssembly (309ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (109ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (479ms)
+		LoadAssemblies (406ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (192ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (162ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2135ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1269ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (166ms)
+			ProcessInitializeOnLoadAttributes (1007ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (190ms)
+Refreshing native plugins compatible for Editor in 2.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6362 unused Assets / (6.7 MB). Loaded Objects now: 6951.
+Memory consumption went from 239.9 MB to 233.3 MB.
+Total: 42.748600 ms (FindLiveObjects: 1.446000 ms CreateObjectMapping: 2.864700 ms MarkObjects: 29.906900 ms  DeleteObjects: 8.527700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.859 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindowLPSNP' threw an exception.
+
+
+(Filename: Assets/Cody Dreams/Low Poly Stylized Nature/Editor/FeedbackWindowLPSNP.cs Line: 43)
+
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+UnityEngine.UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindowLPSNP' threw an exception.
+
+
+(Filename: Assets/Cody Dreams/Low Poly Stylized Nature/Editor/FeedbackWindowLPSNP.cs Line: 43)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.006 seconds
+Domain Reload Profiling: 2863ms
+	BeginReloadAssembly (262ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (515ms)
+		LoadAssemblies (404ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (191ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2007ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1164ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (17ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (917ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (187ms)
+Refreshing native plugins compatible for Editor in 2.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6359 unused Assets / (5.9 MB). Loaded Objects now: 6954.
+Memory consumption went from 239.8 MB to 233.9 MB.
+Total: 40.524500 ms (FindLiveObjects: 1.393900 ms CreateObjectMapping: 3.997600 ms MarkObjects: 27.447700 ms  DeleteObjects: 7.682200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.888 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
+UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindowLPSNP' threw an exception.
+
+
+(Filename: Assets/Cody Dreams/Low Poly Stylized Nature/Editor/FeedbackWindowLPSNP.cs Line: 43)
+
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+UnityEngine.UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindowLPSNP' threw an exception.
+
+
+(Filename: Assets/Cody Dreams/Low Poly Stylized Nature/Editor/FeedbackWindowLPSNP.cs Line: 43)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.037 seconds
+Domain Reload Profiling: 2923ms
+	BeginReloadAssembly (290ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (82ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (493ms)
+		LoadAssemblies (418ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (207ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (180ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2038ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1177ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (18ms)
+			BeforeProcessingInitializeOnLoad (162ms)
+			ProcessInitializeOnLoadAttributes (900ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (188ms)
+Refreshing native plugins compatible for Editor in 3.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6359 unused Assets / (5.8 MB). Loaded Objects now: 6957.
+Memory consumption went from 239.8 MB to 234.0 MB.
+Total: 36.720900 ms (FindLiveObjects: 1.004100 ms CreateObjectMapping: 2.053600 ms MarkObjects: 27.227400 ms  DeleteObjects: 6.434400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.816 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
+UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindowLPSNP' threw an exception.
+
+
+(Filename: Assets/Cody Dreams/Low Poly Stylized Nature/Editor/FeedbackWindowLPSNP.cs Line: 43)
+
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+UnityEngine.UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindowLPSNP' threw an exception.
+
+
+(Filename: Assets/Cody Dreams/Low Poly Stylized Nature/Editor/FeedbackWindowLPSNP.cs Line: 43)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.032 seconds
+Domain Reload Profiling: 2850ms
+	BeginReloadAssembly (250ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (482ms)
+		LoadAssemblies (379ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (203ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (176ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2033ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1194ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (17ms)
+			BeforeProcessingInitializeOnLoad (157ms)
+			ProcessInitializeOnLoadAttributes (912ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (177ms)
+Refreshing native plugins compatible for Editor in 16.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6359 unused Assets / (6.9 MB). Loaded Objects now: 6960.
+Memory consumption went from 239.8 MB to 233.0 MB.
+Total: 58.687300 ms (FindLiveObjects: 1.662600 ms CreateObjectMapping: 3.576500 ms MarkObjects: 44.126400 ms  DeleteObjects: 9.318400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.825 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindowLPSNP' threw an exception.
+
+
+(Filename: Assets/Cody Dreams/Low Poly Stylized Nature/Editor/FeedbackWindowLPSNP.cs Line: 43)
+
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+UnityEngine.UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindowLPSNP' threw an exception.
+
+
+(Filename: Assets/Cody Dreams/Low Poly Stylized Nature/Editor/FeedbackWindowLPSNP.cs Line: 43)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.069 seconds
+Domain Reload Profiling: 2891ms
+	BeginReloadAssembly (257ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (478ms)
+		LoadAssemblies (381ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (171ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2070ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1186ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (164ms)
+			ProcessInitializeOnLoadAttributes (918ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (181ms)
+Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6359 unused Assets / (6.4 MB). Loaded Objects now: 6963.
+Memory consumption went from 239.8 MB to 233.3 MB.
+Total: 45.373700 ms (FindLiveObjects: 1.492300 ms CreateObjectMapping: 2.688900 ms MarkObjects: 30.610300 ms  DeleteObjects: 10.579400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.847 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
+UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindowLPSNP' threw an exception.
+
+
+(Filename: Assets/Cody Dreams/Low Poly Stylized Nature/Editor/FeedbackWindowLPSNP.cs Line: 43)
+
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+UnityEngine.UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+UnityException: FindObjectsOfTypeAll is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindowLPSNP'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal.FindObjectsOfTypeAll(System.Type)
+  at UnityEngine.ResourcesAPI.FindObjectsOfTypeAll (System.Type systemTypeInstance) [0x00000] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEngine.Resources.FindObjectsOfTypeAll (System.Type type) [0x00006] in <612ea0208cc847f49d539e6511ed3cd5>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus, System.Boolean includeInheritingClasses) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type windowType, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <aa1f86fad227490683863fb0d0f47a12>:0 
+  at CodyDreams.Developer.FeedbackWindowLPSNP.ShowWindow () [0x0000d] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:43 
+  at CodyDreams.Developer.FeedbackWindowLPSNP..cctor () [0x00007] in C:\Users\samda\Desktop\COURS\I3\unity\hugoEstCon\projet_unity\Assets\Cody Dreams\Low Poly Stylized Nature\Editor\FeedbackWindowLPSNP.cs:28 
+Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindowLPSNP' threw an exception.
+
+
+(Filename: Assets/Cody Dreams/Low Poly Stylized Nature/Editor/FeedbackWindowLPSNP.cs Line: 43)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.994 seconds
+Domain Reload Profiling: 2839ms
+	BeginReloadAssembly (260ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (79ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (500ms)
+		LoadAssemblies (405ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (203ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (176ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1995ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1082ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (827ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (179ms)
+Refreshing native plugins compatible for Editor in 2.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6359 unused Assets / (6.8 MB). Loaded Objects now: 6966.
+Memory consumption went from 239.8 MB to 233.1 MB.
+Total: 55.735100 ms (FindLiveObjects: 1.229600 ms CreateObjectMapping: 4.359300 ms MarkObjects: 38.004000 ms  DeleteObjects: 12.139400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
