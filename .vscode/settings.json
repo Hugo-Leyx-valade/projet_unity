@@ -56,9 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-<<<<<<< HEAD
-    "dotnet.defaultSolution": "projet_unity.sln"
-=======
+    "projet_unity.sln=======dotnet.defaultSolution": "projet_lxp.sln>>>>>>>1a07ea81bb521abf2e77583cdc5c11907f024d47",
     "dotnet.defaultSolution": "projet_lxp.sln"
->>>>>>> 1a07ea81bb521abf2e77583cdc5c11907f024d47
 }

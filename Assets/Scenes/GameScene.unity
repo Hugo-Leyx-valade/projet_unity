@@ -41268,9 +41268,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1658072164}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 --- !u!1001 &1109469922
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41336,9 +41333,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28a14407b898e944aa0f0ae327a2a5b9, type: 3}
-=======
->>>>>>> 18f9b32a541023c3db825cffcf0ffa4802285969
->>>>>>> 1a07ea81bb521abf2e77583cdc5c11907f024d47
 --- !u!1 &1109911336
 GameObject:
   m_ObjectHideFlags: 0
