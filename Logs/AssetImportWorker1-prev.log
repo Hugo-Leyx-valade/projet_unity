@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.42f1 (feb9a7235030) revision 16693671'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'fr' Physical Memory: 16163 MB
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'fr' Physical Memory: 16122 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/hugol/projet_lxp
+C:/Users/roror/Documents/EFREI/S6/LXP-Unity/Projet V2/projet_unity
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-10590
+61136
 -job-worker-count
 3
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: C:/Users/hugol/projet_lxp
-C:/Users/hugol/projet_lxp
+Successfully changed project path to: C:/Users/roror/Documents/EFREI/S6/LXP-Unity/Projet V2/projet_unity
+C:/Users/roror/Documents/EFREI/S6/LXP-Unity/Projet V2/projet_unity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,18 +59,18 @@ C:/Users/hugol/projet_lxp
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24652]  Target information:
+Player connection [20568]  Target information:
 
-Player connection [24652]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2864705193 [EditorId] 2864705193 [Version] 1048832 [Id] WindowsEditor(7,portable) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [20568]  * "[IP] 192.168.227.1 [Port] 0 [Flags] 2 [Guid] 822303817 [EditorId] 822303817 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8OUEENC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24652]  * "[IP] 192.168.79.1 [Port] 0 [Flags] 2 [Guid] 2864705193 [EditorId] 2864705193 [Version] 1048832 [Id] WindowsEditor(7,portable) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [20568]  * "[IP] 192.168.253.1 [Port] 0 [Flags] 2 [Guid] 822303817 [EditorId] 822303817 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8OUEENC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24652]  * "[IP] 192.168.210.1 [Port] 0 [Flags] 2 [Guid] 2864705193 [EditorId] 2864705193 [Version] 1048832 [Id] WindowsEditor(7,portable) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [20568]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 822303817 [EditorId] 822303817 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8OUEENC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24652]  * "[IP] 10.101.10.53 [Port] 0 [Flags] 2 [Guid] 2864705193 [EditorId] 2864705193 [Version] 1048832 [Id] WindowsEditor(7,portable) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [20568]  * "[IP] 10.101.10.116 [Port] 0 [Flags] 2 [Guid] 822303817 [EditorId] 822303817 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8OUEENC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24652] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [24652] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20568] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20568] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -82,61 +82,59 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 112.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.42f1 (feb9a7235030)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/hugol/projet_lxp/Assets
+[Subsystems] Discovering subsystems at path C:/Users/roror/Documents/EFREI/S6/LXP-Unity/Projet V2/projet_unity/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
     Vendor:   Intel
-    VRAM:     8081 MB
-    Driver:   30.0.101.1404
+    VRAM:     8061 MB
+    Driver:   31.0.101.5333
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017954 seconds.
-- Loaded All Assemblies, in  1.400 seconds
+Registered in 0.004948 seconds.
+- Loaded All Assemblies, in  0.618 seconds
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.141 seconds
-Domain Reload Profiling: 2529ms
-	BeginReloadAssembly (390ms)
+- Finished resetting the current domain, in  0.527 seconds
+Domain Reload Profiling: 1141ms
+	BeginReloadAssembly (206ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (118ms)
-	RebuildNativeTypeToScriptingClass (44ms)
-	initialDomainReloadingComplete (215ms)
-	LoadAllAssembliesAndSetupDomain (621ms)
-		LoadAssemblies (381ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (247ms)
+		LoadAssemblies (201ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (593ms)
-			TypeCache.Refresh (589ms)
-				TypeCache.ScanAssembly (535ms)
+		AnalyzeDomain (243ms)
+			TypeCache.Refresh (240ms)
+				TypeCache.ScanAssembly (214ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1142ms)
+	FinalizeReload (528ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1016ms)
+		SetupLoadedEditorAssemblies (476ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (103ms)
-			SetLoadedEditorAssemblies (14ms)
-			BeforeProcessingInitializeOnLoad (181ms)
-			ProcessInitializeOnLoadAttributes (547ms)
-			ProcessInitializeOnLoadMethodAttributes (171ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -148,14 +146,20 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.011 seconds
+- Loaded All Assemblies, in  1.253 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-projet_lxp
+<RI> Initialized touch support.
+<RI> Initializing input.
+Using Windows.Gaming.Input
+<RI> Input initialized.
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -180,44 +184,100 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.733 seconds
-Domain Reload Profiling: 3734ms
-	BeginReloadAssembly (533ms)
+- Finished resetting the current domain, in  2.653 seconds
+Domain Reload Profiling: 3896ms
+	BeginReloadAssembly (270ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (26ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (97ms)
-	RebuildCommonClasses (104ms)
-	RebuildNativeTypeToScriptingClass (34ms)
-	initialDomainReloadingComplete (105ms)
-	LoadAllAssembliesAndSetupDomain (1225ms)
-		LoadAssemblies (992ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (827ms)
+		LoadAssemblies (548ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (541ms)
-			TypeCache.Refresh (420ms)
-				TypeCache.ScanAssembly (384ms)
-			BuildScriptInfoCaches (85ms)
-			ResolveRequiredComponents (29ms)
-	FinalizeReload (1733ms)
+		AnalyzeDomain (439ms)
+			TypeCache.Refresh (320ms)
+				TypeCache.ScanAssembly (292ms)
+			BuildScriptInfoCaches (93ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (2654ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1513ms)
+		SetupLoadedEditorAssemblies (2461ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (6ms)
 			BeforeProcessingInitializeOnLoad (215ms)
-			ProcessInitializeOnLoadAttributes (1197ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			ProcessInitializeOnLoadAttributes (2093ms)
+			ProcessInitializeOnLoadMethodAttributes (131ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 153 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6415 unused Assets / (11.2 MB). Loaded Objects now: 6895.
-Memory consumption went from 181.3 MB to 170.1 MB.
-Total: 25.529100 ms (FindLiveObjects: 1.376300 ms CreateObjectMapping: 0.773900 ms MarkObjects: 17.341500 ms  DeleteObjects: 6.035900 ms)
+Unloading 6360 unused Assets / (5.9 MB). Loaded Objects now: 6947.
+Memory consumption went from 261.5 MB to 255.6 MB.
+Total: 38.246200 ms (FindLiveObjects: 0.928600 ms CreateObjectMapping: 1.138100 ms MarkObjects: 30.605600 ms  DeleteObjects: 5.572300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5281.093504 seconds.
+  path: Assets/FreeDragons/Materials/Stage.mat
+  artifactKey: Guid(e378a703ff9d68b48b972d3d927d6eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Materials/Stage.mat using Guid(e378a703ff9d68b48b972d3d927d6eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '601e5385fd5cae6b4f56ee15e48d42fc') in 0.4215556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.397878 seconds.
+  path: Assets/FreeDragons/Prefab/DragonBoarPBR/GoldBoarPBR.prefab
+  artifactKey: Guid(bab233ba7b2ba494a8fa95f27c964cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Prefab/DragonBoarPBR/GoldBoarPBR.prefab using Guid(bab233ba7b2ba494a8fa95f27c964cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23620bf4d256b3395c7d47c85555c150') in 0.0148442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 90
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FreeDragons/Prefab/DragonBoarPBR/GreenBoarPBR.prefab
+  artifactKey: Guid(778c40c048e07544f8c1d09fa3939a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Prefab/DragonBoarPBR/GreenBoarPBR.prefab using Guid(778c40c048e07544f8c1d09fa3939a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '193874d76cefbc51aa9f048371711312') in 0.0043088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 90
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.874896 seconds.
+  path: Assets/FreeDragons/Prefab/DragonSoulEaterHP/DragonSoulEaterGreenHP.prefab
+  artifactKey: Guid(b21352415df3ef54f8cca23f1eb49426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Prefab/DragonSoulEaterHP/DragonSoulEaterGreenHP.prefab using Guid(b21352415df3ef54f8cca23f1eb49426) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1458c4d820c1de280d648ae074ce066') in 0.0044931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 130
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FreeDragons/Prefab/DragonSoulEaterHP/DragonSoulEaterPurpleHP.prefab
+  artifactKey: Guid(80457e6ddcad37d4381a7a8c6694c30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Prefab/DragonSoulEaterHP/DragonSoulEaterPurpleHP.prefab using Guid(80457e6ddcad37d4381a7a8c6694c30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6dd259458597945dae8f79e4cdb0c6e') in 0.0042908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 130
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.462825 seconds.
+  path: Assets/FreeDragons/Prefab/DragonSoulEaterPBR/DragonSoulEaterGreenPBR.prefab
+  artifactKey: Guid(4eeec7c170fddbd42a5f700ae7edffeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Prefab/DragonSoulEaterPBR/DragonSoulEaterGreenPBR.prefab using Guid(4eeec7c170fddbd42a5f700ae7edffeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4db6023e9e9c2abce08ba0bfedff4aa1') in 0.0051506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 130
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FreeDragons/Prefab/DragonSoulEaterPBR/DragonSoulEaterPurplePBR.prefab
+  artifactKey: Guid(8017a2c36de41784cae63680c61a430c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Prefab/DragonSoulEaterPBR/DragonSoulEaterPurplePBR.prefab using Guid(8017a2c36de41784cae63680c61a430c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65997b6f89ebe7f6a57d40ce4a85062a') in 0.0040982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 130
 
