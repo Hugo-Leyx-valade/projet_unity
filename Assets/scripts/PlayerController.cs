@@ -27,19 +27,24 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Vector3 myVector = Vector3.zero;
 
         if(Input.GetKey(KeyCode.W)){
-            this.transform.position+=Vector3.forward* speed* Time.deltaTime;
+            myVector += Vector3.forward;
+
+            //this.transform.position+=Vector3.forward* speed* Time.deltaTime;
         }
         if(Input.GetKey(KeyCode.S)){
-            this.transform.position+=Vector3.back * speed * Time.deltaTime;
+            myVector += Vector3.back;
         }
         if(Input.GetKey(KeyCode.A)){
-            this.transform.position+=Vector3.left * speed * Time.deltaTime;
+            myVector += Vector3.left;
         }
         if(Input.GetKey(KeyCode.D)){
-            this.transform.position+=Vector3.right * speed * Time.deltaTime;
+            myVector += Vector3.right;
         }
+        _rb.linearVelocity= myVector * speed;
+
         if(Input.GetKeyDown(KeyCode.Space)){
             GameObject bullet = Instantiate(bulletPrefab, transform.position, transform.rotation);
             
