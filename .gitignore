@@ -19,6 +19,15 @@ MemoryCaptures/
 *.unitypackage
 
 .fake
+<<<<<<< HEAD
 Logs/
 *.log
 *.meta
+=======
+
+Logs/
+*.log
+*.meta
+
+Unity.VisualScripting.Generated
+>>>>>>> 1a07ea81bb521abf2e77583cdc5c11907f024d47

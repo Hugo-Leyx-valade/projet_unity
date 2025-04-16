@@ -640,6 +640,7 @@ MonoBehaviour:
   target: {fileID: 1051099051}
   offset: {x: 3, y: 10, z: -3}
   smoothSpeed: 0.125
+<<<<<<< HEAD
 --- !u!1 &384044532
 GameObject:
   m_ObjectHideFlags: 0
@@ -708,6 +709,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> 1a07ea81bb521abf2e77583cdc5c11907f024d47
 --- !u!1 &476740411
 GameObject:
   m_ObjectHideFlags: 0
@@ -1178,12 +1181,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+<<<<<<< HEAD
   maxHealth: 100
   currentHealth: 100
   bulletPrefab: {fileID: 7694164897045960032, guid: a15593e013bf861469ae94cdae954e74,
     type: 3}
   gameOverScreen: {fileID: 0}
   lifelineImage: {fileID: 1840232421}
+=======
+  life: 0
+  bulletPrefab: {fileID: 7694164897045960032, guid: a15593e013bf861469ae94cdae954e74,
+    type: 3}
+  gameOverScreen: {fileID: 0}
+>>>>>>> 1a07ea81bb521abf2e77583cdc5c11907f024d47
 --- !u!1001 &1092975644
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1271,6 +1281,7 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 981966828}
   m_SourcePrefab: {fileID: 100100000, guid: 94f76ea580cc3594e940ce929301f400, type: 3}
+<<<<<<< HEAD
 --- !u!1 &1142221266
 GameObject:
   m_ObjectHideFlags: 0
@@ -1373,6 +1384,8 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+=======
+>>>>>>> 1a07ea81bb521abf2e77583cdc5c11907f024d47
 --- !u!1001 &1326369652
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1671,6 +1684,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a36efe66f8ebc547b596746d954f094, type: 3}
+<<<<<<< HEAD
 --- !u!1 &1840232419
 GameObject:
   m_ObjectHideFlags: 0
@@ -1746,6 +1760,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1840232419}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> 1a07ea81bb521abf2e77583cdc5c11907f024d47
 --- !u!1 &1908014503
 GameObject:
   m_ObjectHideFlags: 0
@@ -1892,5 +1908,8 @@ SceneRoots:
   - {fileID: 1499229683}
   - {fileID: 805357521}
   - {fileID: 832313813}
+<<<<<<< HEAD
   - {fileID: 1142221270}
   - {fileID: 384044535}
+=======
+>>>>>>> 1a07ea81bb521abf2e77583cdc5c11907f024d47

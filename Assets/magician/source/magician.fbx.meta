@@ -20,7 +20,11 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+<<<<<<< HEAD
     importAnimatedCustomProperties: 0
+=======
+    importAnimatedCustomProperties: 1
+>>>>>>> 1a07ea81bb521abf2e77583cdc5c11907f024d47
     importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5

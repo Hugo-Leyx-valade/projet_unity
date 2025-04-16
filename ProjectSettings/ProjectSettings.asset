@@ -856,12 +856,20 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
+<<<<<<< HEAD
   activeInputHandler: 0
+=======
+  activeInputHandler: 2
+>>>>>>> 1a07ea81bb521abf2e77583cdc5c11907f024d47
   windowsGamepadBackendHint: 0
   cloudProjectId: 15aabe1f-91c6-4d88-adc0-3fb5a70e1ad8
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
+<<<<<<< HEAD
   projectName: 
+=======
+  projectName: projet_lxp
+>>>>>>> 1a07ea81bb521abf2e77583cdc5c11907f024d47
   organizationId: origami_triks
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1
