@@ -16,6 +16,8 @@ public class PlayerController : MonoBehaviour
     
     private Camera mainCamera;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public Transform teleportDestination1;
+    public Transform teleportDestination2;
     void Start()
     {
         _rb = GetComponent<Rigidbody>();
@@ -96,6 +98,25 @@ public class PlayerController : MonoBehaviour
         Debug.Log(this.niveau);
         this.xp_actual=0;
         this.xp_needed+=niveau*27;
+    }
+    
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Portal"))
+        {
+            // Vérifie la position actuelle pour déterminer la destination
+            if (transform.position.z > teleportDestination2.position.z) // Assurez-vous que cela correspond à votre logique
+            {
+                transform.position = teleportDestination2.position;
+            }
+            else
+            {
+                transform.position = teleportDestination1.position;
+            }
+
+            // Réinitialise la vélocité après la téléportation si nécessaire
+            _rb.linearVelocity = Vector3.zero;
+        }
     }
 }
 
