@@ -105,10 +105,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19f162fe96a760c4db3928e83a0c9fca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  target: {fileID: 0}
-=======
   target: {fileID: 1433547639761816132, guid: 4fc256871f04aab449374e9c18db120e, type: 3}
->>>>>>> 1a07ea81bb521abf2e77583cdc5c11907f024d47
   offset: {x: 0, y: 12, z: -4}
   smoothSpeed: 0.125
