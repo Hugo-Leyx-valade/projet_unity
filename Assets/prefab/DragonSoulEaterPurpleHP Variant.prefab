@@ -163,7 +163,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6673380231877356788}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 208523191e71c914586ec3427fa905fa, type: 3}
+  m_Script: {fileID: 11500000, guid: 056a461b5b1a6064286b4064dbf5d2fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
@@ -172,6 +172,6 @@ MonoBehaviour:
   speed: 3
   followHeight: 1
   xp_given: 10
-  projectilePrefab: {fileID: 3746644245564197347, guid: 58e36bb5741ac214dbd7fc6d5f0e9c4e,
+  projectilePrefab: {fileID: 3746644245564197347, guid: 63206181c025120439fa544870859b13,
     type: 3}
   shootCooldown: 2

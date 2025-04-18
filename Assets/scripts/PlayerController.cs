@@ -1,13 +1,27 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+
 
 public class PlayerController : MonoBehaviour
 {
     public float speed;
-    public int life;
+    public TextMeshProUGUI levelTextTMP;
+    public int maxHealth=100;
+    public int currentHealth=100;
+    public Image lifelineImage;
     public int niveau;
     public float xp_actual;
     public float xp_needed = 100;
+    
+    
+
+    
+    public int levelForMultiShot = 6;
+
+    public float multiShotSpreadAngle = 30f;
+    public int numberOfShots = 5;
     public GameObject bulletPrefab;
 
     public GameObject gameOverScreen;
@@ -22,7 +36,14 @@ public class PlayerController : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody>();
         mainCamera = FindAnyObjectByType<Camera>();
+        UpdateHealthUI();
+        if (levelTextTMP != null)
+            levelTextTMP.text = "Niveau : " + niveau;
+
+        if (levelTextTMP != null)
+            levelTextTMP.text = "Niveau : " + niveau;
     }
+    
 
     // Update is called once per frame
     void Update()
@@ -57,15 +78,21 @@ public class PlayerController : MonoBehaviour
                 bulletScript.damage = 10 * niveau;
             }
         }
+        if (niveau >= levelForMultiShot && Input.GetKeyDown(KeyCode.E))
+        {
+            ShootMultipleBullets();
+        }
     }
 
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("ennemy"))
         {
-            life-=10;
+            currentHealth-=10;
+            currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+             UpdateHealthUI();
             Destroy(collision.gameObject);
-            if(life==0){
+            if(currentHealth==0){
                 Destroy(gameObject);
                 gameOverScreen.SetActive(true);
             }
@@ -99,10 +126,26 @@ public class PlayerController : MonoBehaviour
         
     }
     public void GainLvl(){
-        this.niveau +=1;
+         this.niveau +=1;
         Debug.Log(this.niveau);
         this.xp_actual=0;
         this.xp_needed+=niveau*27;
+
+        // MAJ texte
+        if (levelTextTMP != null)
+            levelTextTMP.text = "Niveau : " + niveau;
+
+        if (levelTextTMP != null)
+         levelTextTMP.text = "Niveau : " + niveau;
+
+        if(this.niveau==3){
+            speed=8;
+        }
+    }
+    void UpdateHealthUI()
+    {
+        float fillAmount = (float)currentHealth / maxHealth;
+        lifelineImage.fillAmount = fillAmount;
     }
     
     void OnTriggerEnter(Collider other)
@@ -121,6 +164,24 @@ public class PlayerController : MonoBehaviour
 
             // Réinitialise la vélocité après la téléportation si nécessaire
             _rb.linearVelocity = Vector3.zero;
+        }
+    }
+    void ShootMultipleBullets()
+    {
+        float angleStep = multiShotSpreadAngle / (numberOfShots - 1);
+        float startingAngle = -multiShotSpreadAngle / 2;
+
+        for (int i = 0; i < numberOfShots; i++)
+        {
+            float angle = startingAngle + (angleStep * i);
+            Quaternion rotation = Quaternion.Euler(0, transform.eulerAngles.y + angle, 0);
+            GameObject bullet = Instantiate(bulletPrefab, transform.position + transform.forward, rotation);
+            
+            BulletController bulletScript = bullet.GetComponent<BulletController>();
+            if (bulletScript != null)
+            {
+                bulletScript.damage = 10 * niveau; // Peut être adapté
+            }
         }
     }
 }
